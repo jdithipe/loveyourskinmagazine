@@ -1,0 +1,1234 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/* 
+    Created on : Sep 17, 2018, 3:02:18 AM
+    Author     : jamushe */
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+.loginGroup{
+ position: absolute;
+ width: 165px;
+ height: 240px;
+ padding: 1px;
+ margin: 170px 0 0 10px;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebookOnly{
+  background: #3B5998;
+}
+.btn-gmailOnly{
+  background: #DD4B39
+}
+.btn-linkedinOnly{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col,
+   [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.btn-default{
+  background: transparent;
+  right:0;
+}
+.btn-circle{
+  border: 1px solid #fff;
+  
+}
+.inform{
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+.cool{
+  display: block;
+  padding: 0;
+}
+
+.coverGmail, 
+.coverFacebook, 
+.coverWhatsapp, 
+.coverLinkedin,
+.coverTwitter, 
+.covereMail{
+  
+  align-content: center;
+  border: 1px solid transparent;
+  z-index: 200;
+  padding: 2px;
+  text-align: center;
+}
+
+.coverTwitter{
+  background: #ffffff;
+  color: #1991ff;
+  
+ 
+}
+.covereMail{
+  background: #fff;
+  
+  
+}
+.coverWhatsapp{
+  background: #44ff44;
+  color: #fff;
+  
+  
+}
+.coverLinkedin{
+  background: #1991ff;
+  color: #fff;
+  
+}
+.coverGmail{
+  background: #ff443a;
+  cursor: pointer;
+  color: #fff;
+  
+}
+
+.coverFacebook{
+  background: #3b5998;
+  color: #fff;
+  
+}
+
+.cool label img.f{
+  
+  
+}
+
+.coverfb sub{
+  color: #fff;
+}
+
+.cool label img.e, 
+.cool label img.f, 
+.cool label img.g, 
+.cool label img.l, 
+.cool label img.t,
+.cool label img.w{
+display: inline;
+box-shadow: 1px 1px 1px rgba(255,255,255,1);
+
+}
+b.micro{
+  color: rgba(127,125,127,1);
+}
+.cool label img.w{
+  
+}
+
+.socLog {
+  width: 10rem;
+  /*centers in the container*/
+  text-align: center;
+  transform: rotateZ(0deg);
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1);
+  font-family: EinSchwein;
+  text-align: center;
+  line-height: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0,0,0,1);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  margin: -4px 0 5px -5px;
+}
+.signup{
+/*  color: rgba(255,255,0,1);
+  background: rgba(0,0,0,0.4);
+  height: .82rem;*/
+}
+.coverGmail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverFacebook:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+  
+} 
+
+.coverWhatsapp:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+
+.coverLinkedin:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverTwitter:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+.covereMail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+.loginGroup{
+ position: absolute;
+ width: 165px;
+ height: 240px;
+ padding: 1px;
+ margin: 170px 0 0 10px;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebook{
+  background: #3B5998;
+}
+.btn-gmail{
+  background: #DD4B39
+}
+.btn-linkedin{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col,
+   [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.btn-default{
+  background: transparent;
+  right:0;
+}
+.btn-circle{
+  border: 1px solid #fff;
+  
+}
+.inform{
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+.cool{
+  display: block;
+  padding: 0;
+}
+
+.coverGmail, 
+.coverFacebook, 
+.coverWhatsapp, 
+.coverLinkedin,
+.coverTwitter, 
+.covereMail{
+  
+  align-content: center;
+  border: 1px solid transparent;
+  z-index: 200;
+  padding: 2px;
+  text-align: center;
+}
+
+.coverTwitter{
+  background: #ffffff;
+  color: #1991ff;
+  
+ 
+}
+.covereMail{
+  background: #fff;
+  
+  
+}
+.coverWhatsapp{
+  background: #44ff44;
+  color: #fff;
+  
+  
+}
+.coverLinkedin{
+  background: #1991ff;
+  color: #fff;
+  
+}
+.coverGmail{
+  background: #ff443a;
+  cursor: pointer;
+  color: #fff;
+  
+}
+
+.coverFacebook{
+  background: #3b5998;
+  color: #fff;
+  
+}
+
+.cool label img.f{
+  
+  
+}
+
+.coverfb sub{
+  color: #fff;
+}
+
+.cool label img.e, 
+.cool label img.f, 
+.cool label img.g, 
+.cool label img.l, 
+.cool label img.t,
+.cool label img.w{
+display: inline;
+box-shadow: 1px 1px 1px rgba(255,255,255,1);
+
+}
+b.micro{
+  color: rgba(127,125,127,1);
+}
+.cool label img.w{
+  
+}
+
+.socLog {
+  width: 10rem;
+  /*centers in the container*/
+  text-align: center;
+  transform: rotateZ(0deg);
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1);
+  font-family: EinSchwein;
+  text-align: center;
+  line-height: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0,0,0,1);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  margin: -4px 0 5px -5px;
+}
+.signup{
+/*  color: rgba(255,255,0,1);
+  background: rgba(0,0,0,0.4);
+  height: .82rem;*/
+}
+.coverGmail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverFacebook:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+  
+} 
+
+.coverWhatsapp:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+
+.coverLinkedin:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverTwitter:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+.covereMail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+.loginGroup{
+ position: absolute;
+ width: 165px;
+ height: 240px;
+ padding: 1px;
+ margin: 170px 0 0 10px;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebook{
+  background: #3B5998;
+}
+.btn-gmail{
+  background: #DD4B39
+}
+.btn-linkedin{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col,
+   [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.btn-default{
+  background: transparent;
+  right:0;
+}
+.btn-circle{
+  border: 1px solid #fff;
+  
+}
+.inform{
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+.cool{
+  display: block;
+  padding: 0;
+}
+
+.coverGmail, 
+.coverFacebook, 
+.coverWhatsapp, 
+.coverLinkedin,
+.coverTwitter, 
+.covereMail{
+  
+  align-content: center;
+  border: 1px solid transparent;
+  z-index: 200;
+  padding: 2px;
+  text-align: center;
+}
+
+.coverTwitter{
+  background: #ffffff;
+  color: #1991ff;
+  
+ 
+}
+.covereMail{
+  background: #fff;
+  
+  
+}
+.coverWhatsapp{
+  background: #44ff44;
+  color: #fff;
+  
+  
+}
+.coverLinkedin{
+  background: #1991ff;
+  color: #fff;
+  
+}
+.coverGmail{
+  background: #ff443a;
+  cursor: pointer;
+  color: #fff;
+  
+}
+
+.coverFacebook{
+  background: #3b5998;
+  color: #fff;
+  
+}
+
+.cool label img.f{
+  
+  
+}
+
+.coverfb sub{
+  color: #fff;
+}
+
+.cool label img.e, 
+.cool label img.f, 
+.cool label img.g, 
+.cool label img.l, 
+.cool label img.t,
+.cool label img.w{
+display: inline;
+box-shadow: 1px 1px 1px rgba(255,255,255,1);
+
+}
+b.micro{
+  color: rgba(127,125,127,1);
+}
+.cool label img.w{
+  
+}
+
+.socLog {
+  width: 10rem;
+  /*centers in the container*/
+  text-align: center;
+  transform: rotateZ(0deg);
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1);
+  font-family: EinSchwein;
+  text-align: center;
+  line-height: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0,0,0,1);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  margin: -4px 0 5px -5px;
+}
+.signup{
+/*  color: rgba(255,255,0,1);
+  background: rgba(0,0,0,0.4);
+  height: .82rem;*/
+}
+.coverGmail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverFacebook:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+  
+} 
+
+.coverWhatsapp:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+
+.coverLinkedin:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverTwitter:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+.covereMail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+.loginGroup{
+ position: absolute;
+ width: 165px;
+ height: 240px;
+ padding: 1px;
+ margin: 170px 0 0 10px;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebook{
+  background: #3B5998;
+}
+.btn-gmail{
+  background: #DD4B39
+}
+.btn-linkedin{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col,
+   [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.btn-default{
+  background: transparent;
+  right:0;
+}
+.btn-circle{
+  border: 1px solid #fff;
+  
+}
+.inform{
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+.cool{
+  display: block;
+  padding: 0;
+}
+
+.coverGmail, 
+.coverFacebook, 
+.coverWhatsapp, 
+.coverLinkedin,
+.coverTwitter, 
+.covereMail{
+  
+  align-content: center;
+  border: 1px solid transparent;
+  z-index: 200;
+  padding: 2px;
+  text-align: center;
+}
+
+.coverTwitter{
+  background: #ffffff;
+  color: #1991ff;
+  
+ 
+}
+.covereMail{
+  background: #fff;
+  
+  
+}
+.coverWhatsapp{
+  background: #44ff44;
+  color: #fff;
+  
+  
+}
+.coverLinkedin{
+  background: #1991ff;
+  color: #fff;
+  
+}
+.coverGmail{
+  background: #ff443a;
+  cursor: pointer;
+  color: #fff;
+  
+}
+
+.coverFacebook{
+  background: #3b5998;
+  color: #fff;
+  
+}
+
+.cool label img.f{
+  
+  
+}
+
+.coverfb sub{
+  color: #fff;
+}
+
+.cool label img.e, 
+.cool label img.f, 
+.cool label img.g, 
+.cool label img.l, 
+.cool label img.t,
+.cool label img.w{
+display: inline;
+box-shadow: 1px 1px 1px rgba(255,255,255,1);
+
+}
+b.micro{
+  color: rgba(127,125,127,1);
+}
+.cool label img.w{
+  
+}
+
+.socLog {
+  width: 10rem;
+  /*centers in the container*/
+  text-align: center;
+  transform: rotateZ(0deg);
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1);
+  font-family: EinSchwein;
+  text-align: center;
+  line-height: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0,0,0,1);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  margin: -4px 0 5px -5px;
+}
+.signup{
+/*  color: rgba(255,255,0,1);
+  background: rgba(0,0,0,0.4);
+  height: .82rem;*/
+}
+.coverGmail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverFacebook:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+  
+} 
+
+.coverWhatsapp:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+
+.coverLinkedin:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverTwitter:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+.covereMail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+.loginGroup{
+ position: absolute;
+ width: 165px;
+ height: 240px;
+ padding: 1px;
+ margin: 170px 0 0 10px;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebook{
+  background: #3B5998;
+}
+.btn-gmail{
+  background: #DD4B39
+}
+.btn-linkedin{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col,
+   [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.btn-default{
+  background: transparent;
+  right:0;
+}
+.btn-circle{
+  border: 1px solid #fff;
+  
+}
+.inform{
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+.cool{
+  display: block;
+  padding: 0;
+}
+
+.coverGmail, 
+.coverFacebook, 
+.coverWhatsapp, 
+.coverLinkedin,
+.coverTwitter, 
+.covereMail{
+  
+  align-content: center;
+  border: 1px solid transparent;
+  z-index: 200;
+  padding: 2px;
+  text-align: center;
+}
+
+.coverTwitter{
+  background: #ffffff;
+  color: #1991ff;
+  
+ 
+}
+.covereMail{
+  background: #fff;
+  
+  
+}
+.coverWhatsapp{
+  background: #44ff44;
+  color: #fff;
+  
+  
+}
+.coverLinkedin{
+  background: #1991ff;
+  color: #fff;
+  
+}
+.coverGmail{
+  background: #ff443a;
+  cursor: pointer;
+  color: #fff;
+  
+}
+
+.coverFacebook{
+  background: #3b5998;
+  color: #fff;
+  
+}
+
+.cool label img.f{
+  
+  
+}
+
+.coverfb sub{
+  color: #fff;
+}
+
+.cool label img.e, 
+.cool label img.f, 
+.cool label img.g, 
+.cool label img.l, 
+.cool label img.t,
+.cool label img.w{
+display: inline;
+box-shadow: 1px 1px 1px rgba(255,255,255,1);
+
+}
+b.micro{
+  color: rgba(127,125,127,1);
+}
+.cool label img.w{
+  
+}
+
+.socLog {
+  width: 10rem;
+  /*centers in the container*/
+  text-align: center;
+  transform: rotateZ(0deg);
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1);
+  font-family: EinSchwein;
+  text-align: center;
+  line-height: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0,0,0,1);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  margin: -4px 0 5px -5px;
+}
+.signup{
+/*  color: rgba(255,255,0,1);
+  background: rgba(0,0,0,0.4);
+  height: .82rem;*/
+}
+.coverGmail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverFacebook:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+  
+} 
+
+.coverWhatsapp:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+
+.coverLinkedin:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverTwitter:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+.covereMail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+.loginGroup{
+ position: absolute;
+ width: 165px;
+ height: 240px;
+ padding: 1px;
+ margin: 170px 0 0 10px;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebook{
+  background: #3B5998;
+}
+.btn-gmail{
+  background: #DD4B39
+}
+.btn-linkedin{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col,
+   [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+.btn-default{
+  background: transparent;
+  right:0;
+}
+.btn-circle{
+  border: 1px solid #fff;
+  
+}
+.inform{
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+.cool{
+  display: block;
+  padding: 0;
+}
+
+.coverGmail, 
+.coverFacebook, 
+.coverWhatsapp, 
+.coverLinkedin,
+.coverTwitter, 
+.covereMail{
+  
+  align-content: center;
+  border: 1px solid transparent;
+  z-index: 200;
+  padding: 2px;
+  text-align: center;
+}
+
+.coverTwitter{
+  background: #ffffff;
+  color: #1991ff;
+  
+ 
+}
+.covereMail{
+  background: #fff;
+  
+  
+}
+.coverWhatsapp{
+  background: #44ff44;
+  color: #fff;
+  
+  
+}
+.coverLinkedin{
+  background: #1991ff;
+  color: #fff;
+  
+}
+.coverGmail{
+  background: #ff443a;
+  cursor: pointer;
+  color: #fff;
+  
+}
+
+.coverFacebook{
+  background: #3b5998;
+  color: #fff;
+  
+}
+
+.cool label img.f{
+  
+  
+}
+
+.coverfb sub{
+  color: #fff;
+}
+
+.cool label img.e, 
+.cool label img.f, 
+.cool label img.g, 
+.cool label img.l, 
+.cool label img.t,
+.cool label img.w{
+display: inline;
+box-shadow: 1px 1px 1px rgba(255,255,255,1);
+
+}
+b.micro{
+  color: rgba(127,125,127,1);
+}
+.cool label img.w{
+  
+}
+
+.socLog {
+  width: 10rem;
+  /*centers in the container*/
+  text-align: center;
+  transform: rotateZ(0deg);
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1);
+  font-family: EinSchwein;
+  text-align: center;
+  line-height: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0,0,0,1);
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  margin: -4px 0 5px -5px;
+}
+.signup{
+/*  color: rgba(255,255,0,1);
+  background: rgba(0,0,0,0.4);
+  height: .82rem;*/
+}
+.coverGmail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverFacebook:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+  
+} 
+
+.coverWhatsapp:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+
+.coverLinkedin:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+.coverTwitter:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+} 
+.covereMail:hover{
+  font-weight: 900;
+  cursor: pointer;
+  border: 1px solid ;
+}
+
+  
+}

@@ -1,0 +1,257 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+   
+  /*
+$color1: rgba(236, 164, 0, 1);
+$color2: rgba(243, 66, 19, 1);
+$color3: rgba(88, 164, 176, 1);
+$color4: rgba(252, 176, 179, 1);
+$color5: rgba(53, 24, 104, 1);
+$color1: rgba(206, 255, 26, 1);
+$color2: rgba(60, 22, 66, 1);
+$color3: rgba(8, 9, 10, 1);
+$color4: rgba(236, 78, 32, 1);
+$color5: rgba(167, 162, 169, 1);
+$color1: rgba(255, 7, 151, 1);
+$color2: rgba(178, 41, 232, 1);
+$color3: rgba(83, 28, 254, 1);
+$color4: rgba(46, 92, 230, 1);
+$color5: rgba(11, 193, 255, 1);
+$color1: rgba(125, 100, 51, 1);
+$color2: rgba(223, 81, 54, 1);
+$color3: rgba(255, 99, 55, 1);
+$color4: rgba(225, 79, 54, 1);
+$color5: rgba(195, 100, 52, 1);
+*/
+  
+  
+  
+div.jan{
+  background: rgba(243, 66, 19, 1);
+}
+
+div.feb{
+  background: rgba(236, 164, 0, 1);
+}
+
+div.mar{
+  background: rgba(236, 78, 32, .81);
+}
+
+div.apr{
+  background: rgba(88, 164, 176, 1);
+  
+}
+
+div.may{
+  background: rgba(46, 92, 230, 1);
+}
+
+div.jun{
+  background: rgba(206, 255, 26, 1);
+}
+
+div.jul{
+  background: rgba(46, 92, 230, 1);
+}
+
+div.aug{
+  background: rgba(255, 7, 151, 1);
+}
+
+div.sep{
+  background: rgba(252, 176, 179, 1);
+}
+
+div.oct{
+  background: rgba(53, 24, 104, 1);
+}
+
+div.nov{
+  background: rgba(225, 79, 54, 1);
+}
+
+div.dec{
+  background: rgba(125, 100, 51, 1);
+}
+
+
+
+/* ___________________________________________________________________# 12 social Media options */
+  
+ body.coverBody{
+   
+ }  
+/*________________________________________________________________#  main body of the entire app */
+
+.shadow{
+  /*______________________________________________________________# The design of the top bar = inset css-shadow */
+  
+  
+}
+
+.top-bar{
+   /*______________________________________________________________# Top bar */
+box-shadow: inset 0px 0px 20px 0px #000;
+-webkit-box-shadow: inset 0px 0px 20px 0px #000;
+-moz-box-shadow: inset 0px 0px 20px 0px #000;
+-o-box-shadow: inset 0px 0px 20px 0px #000;
+
+background: transparent;
+
+
+} 
+
+
+
+div.monthBody{
+  margin: 7px;
+  display: inline;
+  
+}
+
+div.coverMonthBtn{
+  width: 150px;
+}
+
+div.row, .row ul li{
+display: inline;
+margin: -2px 0 0 2px;
+height: 35px;
+}
+
+
+.monthBody label::after, .monthBody label::before{
+  position: absolute;
+  margin: 0 -20px;
+}
+
+
+.monthBody label::before{
+  content:'';
+  display: inline-block;
+  height: 16px; 
+  width: 16px;
+  border: 1px solid rgba(255, 255, 30, .6);
+  
+}
+
+
+
+.top-bar-left{
+   /*______________________________________________________________# Top bar left*/
+   
+   width: 481px;
+   margin: -2px 5px;
+   background: transparent;
+   
+}
+
+div.row, .row ul{
+  width: 100%;
+  
+}
+
+
+.yearApp{
+   /*______________________________________________________________# The Year App */
+   background: transparent;
+}
+
+.yearApp form{
+   /*______________________________________________________________# The Year App */
+}
+
+
+.top-bar-right{
+     /*______________________________________________________________# Top right | Search bar*/
+  
+  
+}
+
+.top-bar, .top-bar ul{
+  background: transparent;
+}
+
+.top-bar-right .menu ul{
+/*______________________________________________________________# Top right | */
+  
+width: 480px;
+
+}
+
+.menu ul li{
+  width: 120px;
+}
+div.row, .row ul li{
+  
+  
+}
+nav.tab-bar, tab-bar{
+  /*______________________________________________________________# Navigation bar | 12 radio buttons */
+
+  background: transparent;
+  
+}
+
+
+div.row, .row ul{
+  /*______________________________________________________________# Container | menu*/
+  background: transparent;
+  
+}
+
+
+.top-bar-left, .top-bar-left ul{
+/*______________________________________________________________# Topleft bar + left-bar unordered list*/
+  
+}
+ 
+.top-bar-right{
+  /*______________________________________________________________# Topright bar + right-bar unordered list*/
+}
+
+.dropdown, .menu{
+ background: transparent;
+  
+}
+
+
+ul.menu.search{
+  /*______________________________________________________________# Topright bar + right-bar search bar*/
+}
+
+.top-bar-right .menu input[type=search]{
+  
+  
+  /*______________________________________________________________# Search bar. */
+}
+
+.top-bar-right .menu ul li .button button{
+  
+  /*______________________________________________________________# Search button. */
+}
+.top-bar input{
+  width: 600;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}

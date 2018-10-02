@@ -1,0 +1,131 @@
+
+    <div class="yearApp">
+ 
+    <form><nav class="tab-bar">
+<div class="row">
+<ul class="dropdown menu" data-dropdown-menu>
+
+<li>
+    <div class="coverMonthBtn jan">
+    <div class="head">
+    <div class="monthBody">
+    
+    <input type="radio" name="publicationMonth" value="86400000" id="jan" required class="change_range" data-range-from="86400000" data-range-to="2592000000" />
+    <label for="jan"><span><%= link_to "Jan", controller: "now", action: "jan" %></span></label>
+    </a>
+    </div>
+
+    </div>
+
+</li><li>
+    <div class="coverMonthBtn feb"><div class="head facebookOnly">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="2592000000" id="feb" class="change_range" data-range-from="2592000000" data-range-to="5184000000"  />
+    <label for="feb"><span><%= link_to "Feb", controller: "now", action: "feb" %></span></label>
+    </div>
+    </div>
+    
+
+</li><li>
+    <div class="coverMonthBtn mar">
+    <div class="head">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="5184000000" id="mar" class="change_range" data-range-from="5184000000" data-range-to="7776000000"  />
+    <label for="mar"><span><%= link_to "Mar", controller: "now", action: "mar" %></span></label>
+    </div>
+    </div>
+    
+
+</li><li>
+    <div class="coverMonthBtn apr"><div class="head linkedinOnly">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="7776000000" id="apr" class="change_range" data-range-from="7776000000" data-range-to="10454400000"  />
+    <label for="apr"><span><%= link_to "Apr", controller: "now", action: "apr" %></span></label>
+    </div>
+    </div>
+    
+
+</li><li>
+    <div class="coverMonthBtn may">
+    <div class="head">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="10454400000" id="may" class="change_range" data-range-from="10454400000" data-range-to="13046400000"  />
+    <label for="may"><span><%= link_to "May", controller: "now", action: "may" %></span></label>
+    </div>
+    </div>
+    
+
+</li><li>
+    <div class="coverMonthBtn jun">
+    <div class="head">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="13046400000" id="jun" class="change_range" data-range-from="13046400000" data-range-to="15724800000"  />
+    <label for="jun"><span><%= link_to "Jun", controller: "now", action: "jun" %></span></label>
+     </div>
+    </div>
+    
+
+</li><li>
+    <div class="coverMonthBtn jul"><div class="head whatsappOnly">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="15724800000" id="jul" class="change_range" data-range-from="15724800000" data-range-to="18316800000"  />
+    <label for="jul"><span><%= link_to "Jul", controller: "now", action: "jul" %></span></label>
+    </div>
+    </div>
+    
+
+</li><li>
+    <div class="coverMonthBtn aug">
+    <div class="head">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="18316800000" id="aug" class="change_range" data-range-from="18316800000" data-range-to="20995200000"  />
+    <label for="aug"><span><%= link_to "Aug", controller: "now", action: "aug" %></span></label>
+    </div>
+    </div>
+    
+
+</li><li>
+    <div class="coverMonthBtn sep">
+    <div class="head">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="20995200000" id="sep" class="change_range" data-range-from="20995200000" data-range-to="23587200000"  />
+    <label for="sep"><span><%= link_to "Sep", controller: "now", action: "sep" %></span></label>
+     </div>
+    </div>
+    
+
+</li><li>
+    <div class="coverMonthBtn oct">
+    <div class="head">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="23587200000" id="oct" class="change_range" data-range-from="23587200000" data-range-to="26265600000"  />
+    <label for="oct"><span class="whiteShadow"><%= link_to "Oct", controller: "now", action: "oct", class: "whiteShadow" %></span></label>
+    </div>
+    </div>
+
+
+</li><li>
+    <div class="coverMonthBtn nov">
+    <div class="head">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="26265600000" id="nov" class="change_range" data-range-from="26265600000" data-range-to="28857600000"  />
+    <label for="nov"><span><%= link_to "Nov", controller: "now", action: "nov" %></span></label>
+    </div>
+    </div>
+    
+
+</li><li>
+    <div class="coverMonthBtn dec">
+    <div class="head">
+    <div class="monthBody">
+    <input type="radio" name="publicationMonth" value="28857600000" id="dec" class="change_range" data-range-from="28857600000" data-range-to="31536000000"  />
+    <label for="dec"><span><%= link_to "Dec", controller: "now", action: "dec" %></span></label>
+    </div>
+    </div>
+    
+    </li></ul>
+    </div>
+    </nav>
+    </form>
+<%= render 'now/year/fullyear' %>   
+    </div>

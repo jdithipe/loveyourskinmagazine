@@ -10,6 +10,3658 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require foundation_and_overrides
+ *= require foundation
  *= require_tree .
  *= require_self
  */
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:900');
+@import url('https://fonts.googleapis.com/css?family=Teko:700');
+@font-face{
+    font-family: anonbats;
+    src: url('fonts/Anonbats.ttf');
+}
+
+@font-face{
+    font-family: big_noodle_titling;
+    src: url('fonts/big_noodle_titling.ttf');
+}
+@font-face{
+    font-family: Beautiful-ES;
+    src: url('fonts/Beautiful-ES.ttf');
+}
+@font-face{
+    font-family: Chunkfive;
+    src: url('fonts/Chunkfive.otf');
+}
+@font-face{
+    font-family: codeBold;
+    src: url('fonts/codeBold.otf');
+}
+@font-face{
+    font-family: codeLight;
+    src: url('fonts/codeLight.otf');
+}
+@font-face{
+    font-family: cheapSign;
+    src: url('fonts/CheapSign.ttf');
+}
+@font-face{
+    font-family: CornPop;
+    src: url('fonts/CornPop.otf');
+}
+@font-face{
+    font-family: data-latin;
+    src: url('fonts/data-latin.ttf');
+}
+
+@font-face{
+    font-family: famousfaces;
+    src: url('fonts/famousfaces.ttf');
+}
+@font-face{
+    font-family: foundation-icons;
+    src: url('fonts/foundation-icons.ttf');
+}
+@font-face{
+    font-family: fantasyClipart;
+    src: url('fantasyClipart.ttf');
+}
+@font-face{
+    font-family: FeedingAMoment;
+    src: url('fonts/feedingAMoment.ttf');
+}
+@font-face{
+    font-family: FrontPageNeue;
+    src: url('fonts/FrontPageNeue.woff');
+}
+@font-face{
+    font-family: Gatzby;
+    src: url('fonts/GatzbyFLF.ttf');
+}
+@font-face{
+    font-family: GatzbyFLF-Bold;
+    src: url('fonts/GatzbyFLF-Bold.ttf');
+}
+@font-face{
+    font-family: LeagueGothic;
+    src: url('fonts/LeagueGothic.otf');
+}
+@font-face{
+    font-family: LichteGraphicCAT;
+    src: url('fonts/LichteGraphicCAT.ttf');
+}
+@font-face{
+    font-family: hollywoodCapital;
+    src: url('fonts/hollywoodCapital.ttf');
+}
+@font-face{
+    font-family: JMHTypewriterMono;
+    src: url('fonts/JMHTypewriterMono.ttf');
+}
+@font-face{
+    font-family: JMHTypewritermonoBlackCross;
+    src: url('fonts/JMHTypewritermonoBlackCross.ttf');
+}
+
+@font-face{
+    font-family: kameradings;
+    src: url('fonts/kameradings.ttf');
+}
+@font-face{
+    font-family: LemonMilk;
+    src: url('fonts/LemonMilk.otf');
+}
+
+@font-face{
+    font-family: Montserrat-Black;
+    src: url('fonts/Montserrat-Black.otf');
+}
+@font-face{
+    font-family: NewsFlashBB;
+    src: url('fonts/NewsFlashBB.ttf');
+}
+@font-face{
+    font-family: OrnaMind;
+    src: url('fonts/OrnaMind.ttf');
+}
+
+@font-face{
+    font-family: profilsdoxy;
+    src: url('fonts/profilsdoxy.ttf');
+}
+@font-face{
+    font-family: riesling;
+    src: url('fonts/riesling.ttf');
+}
+
+@font-face{
+    font-family: TheyPerished;
+    src: url('fonts/TheyPerished.ttf');
+}
+
+@font-face{
+    font-family: TitilliumWeb-Bold;
+    src: url('fonts/TitilliumWeb-Bold.ttf');
+}
+@font-face{
+    font-family: Timeline;
+    src: url('fonts/Timeline.ttf');
+}
+@font-face{
+    font-family: TypoGraphica;
+    src: url('fonts/TypoGraphica.otf');
+}
+@font-face{
+    font-family: VarietyKiller;
+    src: url('fonts/VarietyKiller.otf');
+}
+
+@font-face{
+    font-family: WhereMyKeys;
+    src: url('fonts/whereMyKeys.otf');
+}
+
+
+.off-canvas-content button{
+  margin: -2195px 0 0 90px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+ .cover::-webkit-scrollbar {
+    width: 9px;
+}
+ 
+.cover::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 212, 0, 1);;
+}
+ 
+.cover::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 112, 0, 1);;
+  outline: 1px solid slategrey;
+}
+  
+.magazine{
+ 
+  height: 100%;
+  width: 72vw;
+  
+  
+  }
+
+  .magazineJanuary{
+  background-image: url(januaryCover.jpg);  
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+        
+  }
+  .magazineFebruary{
+  background-image: url(februaryCover.jpg);  
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;    
+  }
+  .magazineMarch{
+    background-image: url(marchCover.jpg);  
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+  
+  .magazineApril{
+  background-image: url(aprilFace.jpg);  
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+  .magazineMay{
+    background-image: url(mayCover.jpg);  
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+  .magazineJune{
+    background-image: url(juneCover.jpg);  
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+  .magazineJuly{
+    background-image: url(julyCover.jpg);  
+  background-position: 10% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  
+  }
+  .magazineAugust{
+    background-image: url(augustCover.jpg);  
+  background-position: 50% -20%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+  .magazineSeptember{
+    background-image: url(septemberCover.jpg);  
+  background-position: 50% -20%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+  .magazineOctober{
+  background-image: url(afro_model1000x854.jpg);  
+  background-position: 50% -20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .magazineNovember{
+    background-image: url(novemberCover.jpg);  
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+  .magazineDecember{
+    background-image: url(decemberCover.jpg);  
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  }
+  
+.cover{
+  position: relative;
+  top: 0;
+  margin: 20px auto;
+  background: #fff;
+  background-size: cover;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  z-index: 9;
+  display: block;
+  width: 70vw;
+  height: 200vh;
+  overflow-y: scroll;
+  margin: 0 auto;
+  box-shadow: 15px 20px 25px rgba(0,0,0,0.8);
+}
+
+
+
+.thisMonth{
+  height: 323.5%;
+  width: 120px;
+  left: -.1rem;
+  padding: 1% 0 5% 0;
+  display: block;
+  position: absolute;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+legend.monthName{
+  font-family: roboto;
+  font-size: 3.85rem;
+  margin: 60px 0 0 30px;
+  position: absolute;
+}
+
+
+.ydate legend{
+  position: absolute;
+  transform: rotateZ(90deg);
+  
+  color: rgba(255, 212, 0, 1);
+  /*text-shadow: rgba(255, 110, 0, 1) 1px 1px 2px;*/
+  margin: 70px 20px 0 28px ;
+  display: inline-block;
+  width: 100%;
+  height: 1.8rem;
+}
+
+
+/* _____________________________Logo Picture */
+.logoImg{
+  top: 0;
+  left: 0;
+  width: 60rem;
+}
+
+.logoImg img{
+  margin: 0 0 0 90px;
+  position: absolute;
+}
+/* _____________________________Issue Date/Month */
+.issueDate{
+  font-size: 1rem;
+  font-family: Timeline; 
+  top: 1rem;
+  font-weight: 900;
+ 
+}
+.coverDate{
+ display: inline;
+ font-weight: 900; 
+ font-size: 2rem;
+  background: #000;
+  color: #ddd;
+  padding: .5rem;
+}
+/* _____________________________Hair */
+.coverHair{
+  display: inline-block;
+  /*font-family: 'Teko', sans-serif;*/
+  font-family: Chunkfive;
+  font-weight: 800;
+  font-size: 1.6rem;
+  text-align: left;
+  color: #1d9099;
+  text-shadow: .1vmin .1vmin 0 #E79C10, -.3vmin -.2vmin 0 #D53A33;
+  text-transform: uppercase;
+  line-height: .3px;
+  
+  color: #000;
+  float: left;
+  margin: 201.1px 123.2px;
+  position: absolute;
+  padding: 2px;
+ 
+}
+.coverHair--link{
+  padding: 2px;
+}
+
+
+/*___________________Beauty */
+.coverBeauty{
+   transform: rotateZ(345deg);
+   display: inline-block;
+   float: right;
+   margin: 40px 38px 0 -30px;
+   background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+   width: 11rem;
+   height: 11rem;
+   font-size: 1rem;
+   border-radius: 100%;
+   padding: .01rem .01rem;
+   
+}
+/* #1 Tip */
+.coverBeauty--wording{
+  font-family: LemonMilkbold;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height:.005rem;
+  display: inline-block;
+  margin: -1.1rem 0 0 1.81rem;
+}
+/*Beauty! */
+.coverBeauty--bigWord2{
+  font-family: LemonMilkbold;
+  display: inline-block;
+  float: right;
+  line-height: .01rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 2.1rem 0 -3rem -1rem;
+}
+coverBeauty--wordinga{
+  
+}
+.coverBeauty--wow{
+  color: #f11deb;
+  display: block;
+  margin: 1.1rem 0 0 2rem;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+
+/* cheats! */
+.coverBeauty--wording1{
+  margin: 30px 0 0 3rem;
+  display: block;
+ letter-spacing: .001rem;  
+ opacity: .6;
+}
+/* OMG + Cheats! */
+.coverBeauty--tip{
+  font-family: LemonMilkbold;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: .01rem;
+  margin: 14px 1rem 0 .05rem;
+  display: inline;
+  width: 20rem;
+}
+
+
+/* _____________________________Leisure */
+.coverLeisure{
+ 
+  background: rgba(0,0,0,0.9);
+  height: 300px;
+  margin: -130px -340px; 
+  z-index: 8;
+  
+  bottom: 0;
+  width: 72vw;
+  display: inline-block;
+  position: absolute;
+}
+/* _____________________________living space */
+.coverSpace{
+  font-family:seasideresort;
+  font-size: 30px;
+  line-height: 7px;
+  color: #f1541d;
+  display: inline;
+  background: transparent;
+  z-index: 8;
+  float: left;
+  margin: 615px 128px;
+}
+/* _____________________________Books */
+.coverBook{
+
+  font-size: 25px;
+  line-height: 10.2px; 
+  padding: 1%;
+  width: 250px;
+  display: inline;
+  position: absolute;
+  text-shadow:
+    -1px -1px 0 #f36,
+    1.2px -1.2px 0 #526,
+    -3px 3px 0 #48f,
+    1.2px 1.2px 0 #f8f,
+    2px 2px 0 #fff,
+    3px 2px 0 #fff,
+    3.2px 3.2px 0 #4f7,
+    3.5px 3.5px 0 #47f;
+  background: transparent;
+  margin: 195px 50px;
+  z-index: 9;
+  bottom: 0;
+ 
+  
+}
+
+  /* _____________________________Social */
+.coverSocial{
+  transform: rotateZ(345deg);
+  display: inline-block;
+  color: #666;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 17px; 
+  float: right;
+  padding: 5px;
+  margin: 405px 182px;
+  border-right: 6px solid red;
+}
+.coverSocial--media{
+  background: rgba(0,0,180,.8);
+  font-size: 20px;
+  color: #fff;
+  width: 150px;
+  padding: 1px;
+  transform: rotateZ(5deg);
+  display: inline-block;
+  margin: 5px -15.1px;
+  position: absolute;
+    
+}
+.coverSocial--media s{
+  font-weight: 900;
+}
+/* _____________________________info */
+.coverInfo{
+  transform: rotateZ(15deg);
+  border-left: 6px solid green;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 17px;
+  display: block;
+  
+  position: absolute;
+  padding: 5px;
+  float: right;
+  margin: 630px 0 0 755px; 
+}
+.coverInfo-article{
+  
+}
+.coverInfo--tip{
+  color: #000;
+}
+
+.coverInfo-article{
+  /*border: 4px solid #f1541d;
+  border-radius: 100%; */
+  
+  }
+  /* _____________________________Cities */
+ .coverCities{ 
+  /*background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));*/
+  line-height: 18px;
+  font-size: 30px;
+  text-align: right;
+  font-weight: 600;
+  text-shadow:
+    -1px -1px 0 #666,
+    1.2px -1.2px 0 #fff,
+    -1.5px 1.5px 0 #fff,
+    1.2px 1.2px 0 #f55,
+    1.4px 2px 0 #f55,
+    2px 1px 0 #666,
+    2px 2.3px 0 #fff,
+    3.5px 3.5px 0 rgba(1,1,1,0);
+  padding: 20px 25px;
+  margin: 720px -200.2px;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  float: left;
+  display: inline;
+  z-index: 8;
+  /*clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 6% 100%, 6% 80%, 0% 80%);*/
+  background: #f00;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+/* _____________________________Business */
+.coverBusiness{
+  
+  font-weight: 600;
+  background: transparent;
+  line-height: 6px;
+  font-size: 12px;
+  color: #000;
+  border: 3px solid #000;
+  display: inline-block;
+  margin: 290px 379px;
+  z-index: 8;
+  position: absolute;
+  padding: .5px 3px;
+
+  outline: 1px dashed #98abb9;
+ outline-offset: -5px;
+ 
+ -webkit-box-shadow: 2px 2px 2px #000;
+ -moz-box-shadow: 2px 2px 2px #000;
+ box-shadow: 2px 2px 2px #000;
+}
+/*____________________________________*/
+.plate {
+  width: auto;
+  margin: 1% auto;
+}
+/*
+.shadow {
+  color: #fff;
+  
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #22e,
+    1.2px -1.2px 0 #22e,
+    -3px 3px 0 #222,
+    1.2px 1.2px 0 #222,
+    2px 2px 0 #fff,
+    3px 2px 0 #fff,
+    3.2px 3.2px 0 #ff0,
+    3.5px 3.5px 0 #ff0;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+*/
+.script {
+  
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 13px;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 25%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 18px;
+}
+.text2 {
+  font-size: 22px;
+}
+.text3 {
+  font-size: 19px;
+}
+
+/*____________________________ Text efffect*/
+
+.coverBusiness--article{
+  
+}
+.coverBusiness--tip {
+  
+}
+.coverBusiness--bigWord{
+  
+}
+.coverBusiness--word{
+  background: #000;
+  color: #333;
+}
+.coverBusiness--wording{
+  
+}
+/* _____________________________Food */
+.coverFood{
+  border: 2px dashed red;
+  font-size: 18px;
+  text-align: right;
+  color: #000;
+  padding: 5px;
+  line-height: 10px;
+  margin: -410px 60px;
+  display: inline-block;
+  float: right;
+  
+}
+.coverFood--greenline{
+ color: #0f0; 
+}
+
+.coverCities--tip{
+  
+}
+/* _____________________________hair */
+
+.realBody{
+  background: #fff;
+ 
+}
+.lpanel{
+ 
+}
+
+
+
+.showOnHover{
+  display: block;
+  height: 20rem;
+  width: 20rem;
+  
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,0), rgba(255,0,255,0));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 0.1rem;
+  margin: -2rem -2rem;  
+}
+
+/* _____________________________Members */
+.coverMembers{
+  
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 4px;
+  display: block;
+  height: 180px;
+  width: 150px;
+  position: absolute;
+  margin: 400px 120px;
+ text-shadow: -1px -1px 3px #666666,
+                       1px 1px 3px #FFFFFF;
+ box-shadow: -1px -1px 3px #fffff,
+                       1px -3px -5px #666666,
+                       4px 3px 1px #000000;
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 1rem;
+  cursor: pointer
+ 
+}
+
+.coverMembers{
+  font-size: 16px;
+  line-height: 6px;
+}
+
+.coverMembers--bigNum{
+ text-shadow: -1px -1px 3px #f16089,
+                       1px 1px 3px #a1f99c; 
+ font-family:seasideresort;
+ font-size: 26px;
+ font-weight: 900;
+ text-decoration: underline;
+}
+
+.coverMembers:hover #showOnhover{
+  
+  height: 20rem;
+  width: 20rem;
+ 
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 1rem;
+  
+}
+
+
+.coverLeisure--article{
+  
+}
+
+/* _____________________________TinyText */
+.tinyText{
+ 
+  border: 1px solid green;
+}
+
+/* __________________________________ coverTech */
+
+.coverTech{
+  display: inline-block;
+  position: absolute;
+  width: 90px;
+  float: right;
+  margin: 450px 420px;
+  background-image: url(yellowMarker.png);
+  background-size: cover;
+  border: 1px solid red;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebook{
+  background: #3B5998;
+}
+.btn-gmail{
+  background: #DD4B39
+}
+.btn-linkedin{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-ise{
+  position: fixed;
+  background: transparent;
+  width: 10%;
+  top: 600px;
+  left: 30px;
+  padding-left: .3rem;
+  bottom: 48px;
+  z-index: 400;
+  background-image: url("Teli.png") no-repeat;
+  background-position: 10% 10%;
+  
+}
+.v-msg{
+	position: relative;
+	background: #fff;
+	border-radius: .4em;
+    content: attr(data-text);
+    position: relative;
+    width: 11.7rem;
+    top: 0;
+    left: 0;  
+    height: 5rem;
+    padding: 1rem .3rem;
+}
+
+.v-msg:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+.v-msg{
+  
+ 
+}
+.no-ise div#audioMsg audio{
+  width: 14%;
+  background: transparent;
+  margin: 2rem 1rem;
+}
+
+.page-menu{
+  position: fixed;
+  right: 0;
+  margin: -80rem 3rem;
+  background-image: url(blueMarker.png);
+  background-size: cover;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  transform: rotateZ(45deg); 
+}
+.hiddenDiv{
+  display: none;
+}
+
+
+/* =============================== Demo */
+
+.big-img a img{
+  font-size: 1rem;
+}
+
+.damaged{
+  display: inline;
+}
+
+.solarCalendar{
+ display: block;
+ width: 100%;
+ height: 3.5rem;
+ padding: 0 2%; 
+ margin: 0 auto;
+}
+
+.solarCalendar input {
+  width: 95%;
+  height: 20px;
+  margin: 0;
+  transform-origin: 75px 75px;
+  transform: rotate(0deg);
+  z-index: 201;
+}
+
+.top-bar-left, .top-bar-left ul{
+  background: transparent;
+}
+
+.menu{
+  background: transparent;
+}
+
+.top-bar{
+  background: rgba(1,1,1,.8);
+  box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+	-webkit-box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+	-moz-box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+    z-index: 99999;
+    position: fixed; 
+    bottom:-10%;
+    width:100%; 
+    height: 30px;
+}
+
+button.button{
+  background: transparent;
+  border: 1px solid rgba(1,1,1,0.8);
+  
+  color: rgba(128,128,128,1);
+  box-shadow: .1vmin 1vmin .1vmin #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+
+i.menu-svg img{
+  width: 20px;
+  height: 20px;
+}
+
+.off-canvas-content button{
+  margin: 2rem .2rem;
+  width: 6rem;
+}
+
+.exit{
+  display: inline;
+  padding: 2px;
+  font-family: roboto;
+  font-size: .8rem;
+  text-transform: capitalize;
+  color: rgba(255,58,58,1);
+  
+}
+
+
+usr img{
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border: 2px dotted rgba(236, 164, 0, 1);
+}
+
+
+.off-canvas position-left {
+  background: rgba(0,0,0,1);
+}
+
+off-canvas position-left, is-transition-overlap, is-open{
+  background: transparent;
+}
+
+.is-transition-overlap{}
+
+.is-closed{
+  
+}
+
+.off-canvas.is-open{
+ background-image: linear-gradient(to bottom right, rgba(255,256,0,0), rgba(255,0,255,0));
+  
+}
+
+#offCanvas ul{
+  background: transparent;
+}
+
+.off-canvas{
+  background: rgba(236, 164, 0, .81);
+}
+
+.accordion-title{
+  border: 1px solid rgba(236, 164, 0, .81);
+  color: #333;
+  text-shadow: .1vmin .1vmin 0 #E79C10, -.3vmin -.2vmin 0 #D53A33;
+}
+
+.accordion-title:hover, .accordion-title:focus{
+  background: rgba(236, 78, 32, 1);
+}
+
+.accordion-content{
+  background: rgba(255,156,0,1);
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+:last-child:not(.is-active) > .accordion-title{
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+:last-child > .accordion-content:last-child{
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+
+
+  body, .coverBody{
+    width: 1281px;
+    top: 1px;
+    
+  }      
+   
+.shadow{
+box-shadow: inset 0px 0px 20px 0px #000;
+-webkit-box-shadow: inset 0px 0px 20px 0px #000;
+-moz-box-shadow: inset 0px 0px 20px 0px #000;
+-o-box-shadow: inset 0px 0px 20px 0px #000;
+}
+  
+.top-bar{
+  // The main container for the topBar
+  background: transparent;  
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
+  
+  /*
+$color1: rgba(236, 164, 0, 1);
+$color2: rgba(243, 66, 19, 1);
+$color3: rgba(88, 164, 176, 1);
+$color4: rgba(252, 176, 179, 1);
+$color5: rgba(53, 24, 104, 1);
+$color1: rgba(206, 255, 26, 1);
+$color2: rgba(60, 22, 66, 1);
+$color3: rgba(8, 9, 10, 1);
+$color4: rgba(236, 78, 32, 1);
+$color5: rgba(167, 162, 169, 1);
+$color1: rgba(255, 7, 151, 1);
+$color2: rgba(178, 41, 232, 1);
+$color3: rgba(83, 28, 254, 1);
+$color4: rgba(46, 92, 230, 1);
+$color5: rgba(11, 193, 255, 1);
+$color1: rgba(125, 100, 51, 1);
+$color2: rgba(223, 81, 54, 1);
+$color3: rgba(255, 99, 55, 1);
+$color4: rgba(225, 79, 54, 1);
+$color5: rgba(195, 100, 52, 1);
+*/
+  
+   
+div.jan{
+  background: rgba(243, 66, 19, 1);
+}
+
+div.feb{
+  background: rgba(236, 164, 0, 1);
+}
+
+div.mar{
+  background: rgba(236, 78, 32, .81);
+}
+
+div.apr{
+  background: rgba(88, 164, 176, 1);
+  
+}
+
+div.may{
+  background: rgba(46, 92, 230, 1);
+}
+
+div.jun{
+  background: rgba(206, 255, 26, 1);
+}
+
+div.jul{
+  background: rgba(46, 92, 230, 1);
+}
+
+div.aug{
+  background: rgba(255, 7, 151, 1);
+}
+
+div.sep{
+  background: rgba(252, 176, 179, 1);
+}
+
+div.oct{
+  background: rgba(53, 24, 104, 1);
+}
+
+div.nov{
+  background: rgba(225, 79, 54, 1);
+}
+
+div.dec{
+  background: rgba(125, 100, 51, 1);
+}
+
+div.monthBody input[type=radio]{
+  opacity: 0;
+}
+
+.monthBody label{
+  position: relative;
+  padding: 0;
+  
+}
+
+
+.monthBody label::after, .monthBody label::before{
+  position: absolute;
+  margin: 0 1.8rem;
+}
+
+.monthBody label::before{
+  content:'';
+  display: inline-block;
+  height: 16px; 
+  width: 16px;
+  border: 1px solid rgba(243, 66, 19, 1);
+  
+}
+
+.monthBody label::after{
+  content: '';
+  display: inline-block;
+  height: 8px;
+  width: 15px;
+  border-left: 4px solid rgba(11, 193, 255, 1);
+  border-bottom: 3px solid rgba(11, 193, 255, 1);  
+  transform: rotate(-45deg);
+}
+
+.monthBody label::before{
+  top: 3px;
+}
+
+.monthBody label::after{
+  left: 4px;
+  top: 5px;
+}
+
+.monthBody:hover label::after{
+  
+}
+
+.monthBody label::before{
+
+}
+
+/*Hide the checkmark by default*/
+.monthBody input[type="radio"] + label::after {
+    content: none;
+}
+/*Unhide the checkmark on the checked state*/
+.monthBody input[type="radio"]:checked + label::after {
+    content: "";
+    background: transparent;
+    
+}
+
+.monthBody input[type="radio"]:checked + span{
+  background: transparent;
+  color: rgba(255, 7, 151, 1);  
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.monthBody input[type="radio"]:focus + label::before {
+    outline: rgba(206, 255, 26, 1) auto 15px;
+    background: rgba(206, 255, 26, 1);
+}
+
+
+.top-bar{
+   /*______________________________________________________________# Top bar */
+box-shadow: inset 0px 0px 15px 0px #000;
+-webkit-box-shadow: inset 0px 0px 15px 0px #000;
+-moz-box-shadow: inset 0px 0px 15px 0px #000;
+-o-box-shadow: inset 0px 0px 15px 0px #000;
+height: 120px;
+background: transparent;
+margin: 5px 3px;
+} 
+
+div.monthBody{
+  margin: 0;
+  display: inline;
+  width: 100px;
+  
+}
+
+div.coverMonthBtn{
+  width: 100px;
+  height: 40px;
+  margin: 0 1px;
+  display: block;
+}
+
+.top-bar-left{
+   /*______________________________________________________________# Top bar left*/
+   
+   width: 12999px;
+   margin: 0 auto;
+   background: rgba(1,1,1,0.8);
+   height: 160px;
+   padding: 3px;
+}
+
+.menu ul{
+float: right;
+width: 1281px;
+  
+}
+
+.yearApp{
+  padding: 0;
+  margin: 0 auto;
+  width: 1281px;
+  
+}
+
+.top-bar ul{
+  
+}
+.whatinput-types-initial .whatinput-types-initial .whatinput-types-touch .whatinput-types-touch{
+  
+}
+
+/*______________________________________________________________# Topleft bar + left-bar unordered list*/
+
+
+.top-bar .top-bar-right {
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        height: 30px; 
+        margin: -145px 0 0 1025px; 
+ 
+}
+.top-bar ul{  
+width: 1281px;  
+}
+
+.dropdown, .menu ul{
+ background: transparent;
+ width: 1281px; 
+ margin: 0;
+ padding: 0;
+}
+
+/* _______________________________________________________________________Input[type='range']*/
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 28px;
+  width: 10px;
+  border-radius: 3px;
+   
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 28px;
+  width: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 28px;
+  width: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Styling the Track */
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgba(255, 7, 151, 1);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: rgba(255, 7, 151, 1);
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 28.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgba(255, 7, 151, 1);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 28.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgba(255, 7, 151, 1);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(255, 7, 151, 1);
+}
+input[type=range]::-ms-fill-upper {
+  background: rgba(255, 7, 151, 1);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #rgba(255, 7, 151, 1);
+}
+
+
+ /* Range input for all Browsers */
+ 
+ input[type=range] {
+  -webkit-appearance: none;
+  margin: 8px 0;
+  width: 100%;
+  z-index: 2000;
+  /*position: absolute;*/
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgba(255, 7, 151, 1);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 28.4px;
+  width: 10px;
+  border-radius: 3px;
+   
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: rgba(255, 7, 151, 1);
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: rgba(255, 7, 151, 1);
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 28px;
+  width: 10px;
+  border-radius: 3px;
+   
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 28.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgba(255, 7, 151, 1);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: rgba(255, 7, 151, 1);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 28px;
+  width: 10px;
+  border-radius: 3px;
+   
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(255, 7, 151, 1);
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: rgba(255, 7, 151, 1);
+}
+
+div.solarCalendar label{
+  
+  margin: -2px auto;
+}
+
+.top-bar-left{
+
+  
+ background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4))
+ margin: 20px -55px;
+ ;
+}
+
+.top-bar-left ul, .top-bar-right ul {
+  background: transparent;
+ 
+}
+
+.yearApp{
+   margin: 0 100px;
+}
+
+ul.dropdown .menu{
+  margin: 0 auto;
+}
+
+input#thisYear{
+  // ID of the range selector
+  padding: 0; 
+}
+
+.solarCalendar{
+ width: 1200px;
+position: absolute; 
+}
+
+.top-bar input[type=range] {
+    max-width: 1200px;
+    position: absolute;
+    margin:5px 0 5px -100px; }
+
+span#tracker{
+  position: absolute;
+  margin: 20px 0 0 -90px;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem 210px;
+  font-family: inherit;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1779ba;
+  color: #fefefe;
+  }
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+  body{
+  width: 1025px;
+  
+  }
+
+
+  .off-canvas-content button.button{
+    margin: -5260px 0 0 52px
+  }
+  
+.magazine{
+ 
+  
+  height: 900px;
+  width: 72vw;
+  background-image: url(afro_model1025.jpg);
+  background-position: -5px 100%;
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  }
+
+  
+.cover{
+  position: relative;
+  top: 0;
+  margin: 20px auto;
+  background: #fff;
+  background-size: cover;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  z-index: 9;
+  display: block;
+  width: 70vw;
+  height: 2650px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  box-shadow: 15px 20px 25px rgba(0,0,0,0.8);
+}
+
+.logoImg img{
+  width: 500px;
+}
+.thisMonth{
+  height: 323.5%;
+  width: 120px;
+  left: -.1rem;
+  padding: 1% 0 5% 0;
+  display: block;
+  position: absolute;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+legend.monthName{
+  font-family: roboto;
+  font-size: 3.85rem;
+  margin: 60px 0 0 30px;
+  position: absolute;
+}
+
+
+.ydate legend{
+  position: absolute;
+  transform: rotateZ(90deg);
+  
+  color: rgba(255, 212, 0, 1);
+  /*text-shadow: rgba(255, 110, 0, 1) 1px 1px 2px;*/
+  margin: 70px 20px 0 28px ;
+  display: inline-block;
+  width: 100%;
+  height: 1.8rem;
+}
+
+
+/* _____________________________Logo Picture */
+.logoImg{
+  top: 0;
+  left: 0;
+  width: 60rem;
+}
+
+.logoImg img{
+  margin: 0 0 0 90px;
+  position: absolute;
+}
+/* _____________________________Issue Date/Month */
+.issueDate{
+  font-size: 1rem;
+  font-family: Timeline; 
+  top: 1rem;
+  font-weight: 900;
+ 
+}
+.coverDate{
+ display: inline;
+ font-weight: 900; 
+ font-size: 2rem;
+  background: #000;
+  color: #ddd;
+  padding: .5rem;
+}
+/* _____________________________Hair */
+.coverHair{
+  display: inline-block;
+  /*font-family: 'Teko', sans-serif;*/
+  font-family: Chunkfive;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: justify;
+  color: #1d9099;
+  text-shadow: .1vmin .1vmin 0 #E79C10, -.3vmin -.2vmin 0 #D53A33;
+  text-transform: uppercase;
+  line-height: -3px;
+  color: #000;
+  float: left;
+  margin: 120px 123.2px;
+  position: absolute;
+  padding: 2px;
+ 
+}
+.coverHair--link{
+  padding: 2px;
+}
+
+
+/*___________________Beauty */
+.coverBeauty{
+   transform: rotateZ(345deg);
+   display: inline-block;
+   float: right;
+   margin: 40px 38px 0 -30px;
+   background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+   width: 150px;
+   height: 150px;
+   font-size: 1rem;
+   border-radius: 100%;
+   padding: .01rem .01rem;
+   
+}
+/* #1 Tip */
+.coverBeauty--wording{
+  font-family: LemonMilkbold;
+  font-size: 16px;
+  font-weight: 600;
+  line-height:.005rem;
+  display: inline-block;
+  margin: -4px 0 0 18px;
+}
+/*Beauty! */
+.coverBeauty--bigWord2{
+  font-family: LemonMilkbold;
+  display: inline-block;
+  float: right;
+  line-height: 1px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 18px 0 0 0;
+}
+coverBeauty--wordinga{
+  
+}
+.coverBeauty--wow{
+  color: #f11deb;
+  display: block;
+  margin: 11px 0 0 10px;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+
+/* cheats! */
+.coverBeauty--wording1{
+  margin: 30px 0 0 30px;
+  display: block;
+ letter-spacing: .001rem;  
+ opacity: .6;
+}
+/* OMG + Cheats! */
+.coverBeauty--tip{
+  font-family: LemonMilkbold;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: .01rem;
+  margin: 14px 10px 0 5px;
+  display: inline;
+  width: 20rem;
+}
+
+
+/* _____________________________Leisure */
+.coverLeisure{
+ 
+  background: rgba(0,0,0,0.9);
+  height: 300px;
+  margin: 1500px -340px; 
+  z-index: 8;
+  
+  bottom: 0;
+  width: 72vw;
+  display: inline-block;
+  position: absolute;
+}
+/* _____________________________living space */
+.coverSpace{
+  font-family:seasideresort;
+  font-size: 30px;
+  line-height: 1px;
+  color: #f1541d;
+  display: inline;
+  background: transparent;
+  z-index: 8;
+  float: left;
+  margin: 415px 128px;
+}
+/* _____________________________Books */
+.coverBook{
+
+  font-size: 25px;
+  line-height: 10.2px; 
+  padding: 1%;
+  width: 250px;
+  display: inline;
+  position: absolute;
+  text-shadow:
+    -1px -1px 0 #f36,
+    1.2px -1.2px 0 #526,
+    -3px 3px 0 #48f,
+    1.2px 1.2px 0 #f8f,
+    2px 2px 0 #fff,
+    3px 2px 0 #fff,
+    3.2px 3.2px 0 #4f7,
+    3.5px 3.5px 0 #47f;
+  background: transparent;
+  margin: 1795px -90px;
+  z-index: 9;
+  bottom: 0;
+ 
+  
+}
+
+  /* _____________________________Social */
+.coverSocial{
+  transform: rotateZ(345deg);
+  display: inline-block;
+  color: #666;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 17px; 
+  float: right;
+  padding: 5px;
+  margin: 385px 142px;
+  border-right: 6px solid red;
+}
+.coverSocial--media{
+  background: rgba(0,0,180,.8);
+  font-size: 20px;
+  color: #fff;
+  width: 150px;
+  padding: 1px;
+  transform: rotateZ(5deg);
+  display: inline-block;
+  margin: 5px -15.1px;
+  position: absolute;
+    
+}
+.coverSocial--media s{
+  font-weight: 900;
+}
+/* _____________________________info */
+.coverInfo{
+  transform: rotateZ(15deg);
+  border-left: 6px solid green;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 17px;
+  display: block;
+  
+  position: absolute;
+  padding: 5px;
+  float: right;
+  margin: 581px 0 0 585px; 
+}
+.coverInfo-article{
+  
+}
+.coverInfo--tip{
+  color: #000;
+}
+
+.coverInfo-article{
+  /*border: 4px solid #f1541d;
+  border-radius: 100%; */
+  
+  }
+  /* _____________________________Cities */
+ .coverCities{ 
+  /*background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));*/
+  line-height: 15px;
+  font-size: 25px;
+  text-align: right;
+  font-weight: 600;
+  text-shadow:
+    -1px -1px 0 #666,
+    1.2px -1.2px 0 #fff,
+    -1.5px 1.5px 0 #fff,
+    1.2px 1.2px 0 #f55,
+    1.4px 2px 0 #f55,
+    2px 1px 0 #666,
+    2px 2.3px 0 #fff,
+    3.5px 3.5px 0 rgba(1,1,1,0);
+  padding: 20px 25px;
+  margin: 550px -215.2px;
+  width: 120px;
+  height: 110px;
+  border-radius: 100%;
+  float: left;
+  display: inline;
+  z-index: 8;
+  /*clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 6% 100%, 6% 80%, 0% 80%);*/
+  background: #f00;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+/* _____________________________Business */
+.coverBusiness{
+  
+  font-weight: 600;
+  background: transparent;
+  line-height: 6px;
+  font-size: 12px;
+  color: #000;
+  border: 3px solid #000;
+  display: inline-block;
+  margin: 290px 201px;
+  z-index: 8;
+  transform: rotate(43deg);
+  position: absolute;
+  padding: .5px 3px;
+  outline: 1px dashed #98abb9;
+ outline-offset: -5px;
+ -webkit-box-shadow: 2px 2px 2px #000;
+ -moz-box-shadow: 2px 2px 2px #000;
+ box-shadow: 2px 2px 2px #000;
+}
+/*____________________________________*/
+.plate {
+  width: auto;
+  margin: 1% auto;
+}
+/*
+.shadow {
+  color: #fff;
+  
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #22e,
+    1.2px -1.2px 0 #22e,
+    -3px 3px 0 #222,
+    1.2px 1.2px 0 #222,
+    2px 2px 0 #fff,
+    3px 2px 0 #fff,
+    3.2px 3.2px 0 #ff0,
+    3.5px 3.5px 0 #ff0;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+*/
+.script {
+  
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 13px;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 25%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 18px;
+}
+.text2 {
+  font-size: 22px;
+}
+.text3 {
+  font-size: 19px;
+}
+
+/*____________________________ Text efffect*/
+
+.coverBusiness--article{
+  
+}
+.coverBusiness--tip {
+  
+}
+.coverBusiness--bigWord{
+  
+}
+.coverBusiness--word{
+  background: #000;
+  color: #333;
+}
+.coverBusiness--wording{
+  
+}
+/* _____________________________Food */
+.coverFood{
+  border: 2px dashed red;
+  font-size: 18px;
+  text-align: right;
+  color: #000;
+  padding: 5px;
+  line-height: 10px;
+  margin: -390px 60px;
+  display: inline-block;
+  float: right;
+  
+}
+.coverFood--greenline{
+ color: #0f0; 
+}
+
+.coverCities--tip{
+  
+}
+/* _____________________________hair */
+
+.realBody{
+  background: #fff;
+ 
+}
+.lpanel{
+ 
+}
+
+
+
+.showOnHover{
+  display: block;
+  height: 20rem;
+  width: 20rem;
+  
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,0), rgba(255,0,255,0));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 0.1rem;
+  margin: -2rem -2rem;  
+}
+
+/* _____________________________Members */
+.coverMembers{
+  
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2px;
+  display: block;
+  height: 165px;
+  width: 120px;
+  position: absolute;
+  margin: 250px 120px;
+ text-shadow: -1px -1px 3px #666666,
+                       1px 1px 3px #FFFFFF;
+ box-shadow: -1px -1px 3px #fffff,
+                       1px -3px -5px #666666,
+                       4px 3px 1px #000000;
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 4px;
+  cursor: pointer
+ 
+}
+
+.coverMembers{
+  font-size: 16px;
+  line-height: 6px;
+}
+
+.coverMembers--bigNum{
+ text-shadow: -1px -1px 3px #f16089,
+                       1px 1px 3px #a1f99c; 
+ font-family:seasideresort;
+ font-size: 26px;
+ font-weight: 900;
+ text-decoration: underline;
+}
+
+.coverMembers:hover #showOnhover{
+  
+  height: 20rem;
+  width: 20rem;
+ 
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 1rem;
+  
+}
+
+
+.coverLeisure--article{
+  
+}
+
+/* _____________________________TinyText */
+.tinyText{
+ 
+  border: 1px solid green;
+}
+
+/* __________________________________ coverTech */
+
+.coverTech{
+  display: inline-block;
+  position: absolute;
+  width: 90px;
+  float: right;
+  margin: 450px 250px;
+  background-image: url(yellowMarker.png);
+  background-size: cover;
+  border: 1px solid red;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebook{
+  background: #3B5998;
+}
+.btn-gmail{
+  background: #DD4B39
+}
+.btn-linkedin{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-ise{
+  position: fixed;
+  background: transparent;
+  width: 10%;
+  top: 600px;
+  left: 30px;
+  padding-left: .3rem;
+  bottom: 48px;
+  z-index: 400;
+  background-image: url("Teli.png") no-repeat;
+  background-position: 10% 10%;
+  
+}
+.v-msg{
+	position: relative;
+	background: #fff;
+	border-radius: .4em;
+    content: attr(data-text);
+    position: relative;
+    width: 11.7rem;
+    top: 0;
+    left: 0;  
+    height: 5rem;
+    padding: 1rem .3rem;
+}
+
+.v-msg:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+.v-msg{
+  
+ 
+}
+.no-ise div#audioMsg audio{
+  width: 14%;
+  background: transparent;
+  margin: 2rem 1rem;
+}
+
+.page-menu{
+  position: fixed;
+  right: 0;
+  margin: -80rem 3rem;
+  background-image: url(blueMarker.png);
+  background-size: cover;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  transform: rotateZ(45deg); 
+}
+.hiddenDiv{
+  display: none;
+}
+
+
+/* =============================== Demo */
+
+.big-img a img{
+  font-size: 1rem;
+}
+
+.damaged{
+  display: inline;
+}
+
+.solarCalendar{
+ display: block;
+ width: 100%;
+ height: 3.5rem;
+ padding: 0 2%; 
+ margin: 0 auto;
+}
+
+.solarCalendar input {
+  width: 95%;
+  height: 20px;
+  margin: 0;
+  transform-origin: 75px 75px;
+  transform: rotate(0deg);
+  z-index: 201;
+}
+
+.top-bar-left, .top-bar-left ul{
+  background: transparent;
+}
+
+.menu{
+  background: transparent;
+}
+
+.top-bar{
+  background: rgba(1,1,1,.3);
+  box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+	-webkit-box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+	-moz-box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+}
+
+button.button{
+  background: transparent;
+  border: 1px solid rgba(1,1,1,0.8);
+  
+  color: rgba(128,128,128,1);
+  box-shadow: .1vmin 1vmin .1vmin #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+
+i.menu-svg img{
+  width: 20px;
+  height: 20px;
+}
+
+.off-canvas-content button{
+  margin: 2rem .2rem;
+  width: 6rem;
+}
+
+.exit{
+  display: inline;
+  padding: 2px;
+  font-family: roboto;
+  font-size: .8rem;
+  text-transform: capitalize;
+  color: rgba(255,58,58,1);
+  
+}
+
+.whiteShadow{
+ text-shadow: 1px 1px 1px #fff; 
+}
+
+usr img{
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border: 2px dotted rgba(236, 164, 0, 1);
+}
+
+
+.off-canvas position-left {
+  background: rgba(0,0,0,1);
+}
+
+off-canvas position-left, is-transition-overlap, is-open{
+  background: transparent;
+}
+
+.is-transition-overlap{}
+
+.is-closed{
+  
+}
+
+.off-canvas.is-open{
+ background-image: linear-gradient(to bottom right, rgba(255,256,0,0), rgba(255,0,255,0));
+  
+}
+
+#offCanvas ul{
+  background: transparent;
+}
+
+.off-canvas{
+  background: rgba(236, 164, 0, .81);
+}
+
+.accordion-title{
+  border: 1px solid rgba(236, 164, 0, .81);
+  color: #333;
+  text-shadow: .1vmin .1vmin 0 #E79C10, -.3vmin -.2vmin 0 #D53A33;
+}
+
+.accordion-title:hover, .accordion-title:focus{
+  background: rgba(236, 78, 32, 1);
+}
+
+.accordion-content{
+  background: rgba(255,156,0,1);
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+:last-child:not(.is-active) > .accordion-title{
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+:last-child > .accordion-content:last-child{
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+
+
+    
+  body, .coverBody{
+    width: 1025px;
+    
+  }      
+   
+  /*
+$color1: rgba(236, 164, 0, 1);
+$color2: rgba(243, 66, 19, 1);
+$color3: rgba(88, 164, 176, 1);
+$color4: rgba(252, 176, 179, 1);
+$color5: rgba(53, 24, 104, 1);
+$color1: rgba(206, 255, 26, 1);
+$color2: rgba(60, 22, 66, 1);
+$color3: rgba(8, 9, 10, 1);
+$color4: rgba(236, 78, 32, 1);
+$color5: rgba(167, 162, 169, 1);
+$color1: rgba(255, 7, 151, 1);
+$color2: rgba(178, 41, 232, 1);
+$color3: rgba(83, 28, 254, 1);
+$color4: rgba(46, 92, 230, 1);
+$color5: rgba(11, 193, 255, 1);
+$color1: rgba(125, 100, 51, 1);
+$color2: rgba(223, 81, 54, 1);
+$color3: rgba(255, 99, 55, 1);
+$color4: rgba(225, 79, 54, 1);
+$color5: rgba(195, 100, 52, 1);
+*/
+  
+  
+  
+div.jan{
+  background: rgba(243, 66, 19, 1);
+}
+
+div.feb{
+  background: rgba(236, 164, 0, 1);
+}
+
+div.mar{
+  background: rgba(236, 78, 32, .81);
+}
+
+div.apr{
+  background: rgba(88, 164, 176, 1);
+  
+}
+
+div.may{
+  background: rgba(46, 92, 230, 1);
+}
+
+div.jun{
+  background: rgba(206, 255, 26, 1);
+}
+
+div.jul{
+  background: rgba(46, 92, 230, 1);
+}
+
+div.aug{
+  background: rgba(255, 7, 151, 1);
+}
+
+div.sep{
+  background: rgba(252, 176, 179, 1);
+}
+
+div.oct{
+  background: rgba(53, 24, 104, 1);
+}
+
+div.nov{
+  background: rgba(225, 79, 54, 1);
+}
+
+div.dec{
+  background: rgba(125, 100, 51, 1);
+}
+
+
+
+/* ___________________________________________________________________# 12 social Media options */
+  
+ body.coverBody{
+   
+ }  
+/*________________________________________________________________#  main body of the entire app */
+
+.shadow{
+  /*______________________________________________________________# The design of the top bar = inset css-shadow */
+  
+  
+}
+
+.top-bar{
+   /*______________________________________________________________# Top bar */
+box-shadow: inset 0px 0px 20px 0px #000;
+-webkit-box-shadow: inset 0px 0px 20px 0px #000;
+-moz-box-shadow: inset 0px 0px 20px 0px #000;
+-o-box-shadow: inset 0px 0px 20px 0px #000;
+
+background: transparent;
+
+
+} 
+
+
+
+div.monthBody{
+  margin: -12px 15px;
+  display: inline;
+  
+}
+
+div.coverMonthBtn{
+  width: 80px;
+}
+
+div.row, .row ul li{
+display: inline;
+margin: -2px 0 0 2px;
+height: 35px;
+}
+
+
+.monthBody label::after, .monthBody label::before{
+  position: absolute;
+  margin: 0 -20px;
+}
+
+
+.monthBody label::before{
+  content:'';
+  display: inline-block;
+  height: 16px; 
+  width: 16px;
+  border: 1px solid rgba(255, 255, 30, .6);
+  
+}
+
+
+
+.top-bar-left{
+   /*______________________________________________________________# Top bar left*/
+   
+   width: 1025px;
+   margin: 0;
+   background: transparent;
+   padding-bottom: 0;
+}
+
+
+
+.yearApp{
+   /*______________________________________________________________# The Year App */
+   background: transparent;
+}
+
+.yearApp form{
+   /*______________________________________________________________# The Year App */
+}
+
+
+.top-bar-right{
+     /*______________________________________________________________# Top right | Search bar*/
+  
+  
+}
+
+.top-bar, .top-bar ul{
+  background: transparent;
+}
+
+.top-bar-right .menu ul{
+/*______________________________________________________________# Top right | */
+  
+
+}
+
+.menu ul{
+  margin-left: 50px; 
+}
+
+.menu ul li{
+  
+}
+div.row, .row ul li{
+  
+  
+}
+nav.tab-bar, tab-bar{
+  /*______________________________________________________________# Navigation bar | 12 radio buttons */
+
+  background: transparent;
+  
+}
+
+
+div.row, .row ul{
+  /*______________________________________________________________# Container | menu*/
+  background: transparent;
+  
+  
+}
+.tab-bar{
+  
+}
+.yearApp{
+  padding: 0;
+  
+  width: 1025px;
+  position: fixed;
+  bottom: 20px;
+}
+.top-bar-left{
+  
+  
+  
+} 
+
+.whatinput-types-initial .whatinput-types-initial .whatinput-types-touch .whatinput-types-touch{
+  
+}
+
+
+.top-bar-left ul{
+/*______________________________________________________________# Topleft bar + left-bar unordered list*/
+  
+}
+ 
+.top-bar-right{
+  /*______________________________________________________________# Topright bar + right-bar unordered list*/
+}
+
+.dropdown, .menu ul{
+ background: transparent;
+ width: 1025px;
+ 
+ margin: 0;
+ padding: 0;
+}
+
+
+
+ul.menu.search{
+  /*______________________________________________________________# Topright bar + right-bar search bar*/
+}
+
+.top-bar-right .menu input{
+  
+  margin-top: -1px;
+  
+  /*______________________________________________________________# Search bar. */
+}
+
+
+.top-bar-right .menu ul li .button button{
+  
+  /*______________________________________________________________# Search button. */
+}
+
+.top-bar-right ul{
+
+position: absolute;  
+margin: 9px -320px;  
+  
+}  
+  
+
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  body{
+  width: 768px;
+  
+  }
+
+
+  .off-canvas-content button.button{
+    //margin: -5260px 0 0 52px
+  }
+  
+.magazine{
+ 
+  
+  height: 900px;
+  width: 100%;
+  background-image: url(afro_model.jpg);
+  background-position: 50% 50%;
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  }
+
+  
+.cover{
+  
+  position: relative;
+  top: 0;
+  margin: 20px auto;
+  background: transparent;
+  background-size: cover;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  z-index: 9;
+  display: block;
+  width: 70vw;
+  height: 900px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  box-shadow: 15px 20px 25px rgba(0,0,0,0.8);
+}
+
+.logoImg img{
+  width: 400px;
+}
+.thisMonth{
+  height: 323.5%;
+  width: 120px;
+  left: -.1rem;
+  padding: 1% 0 5% 0;
+  display: block;
+  position: absolute;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+legend.monthName{
+  font-family: roboto;
+  font-size: 3.85rem;
+  margin: 60px 0 0 30px;
+  position: absolute;
+  
+}
+
+.menu ul span a.whiteShadow{
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+.ydate legend{
+  position: absolute;
+  transform: rotateZ(90deg);
+  
+  color: rgba(255, 212, 0, 1);
+  /*text-shadow: rgba(255, 110, 0, 1) 1px 1px 2px;*/
+  margin: 70px 20px 0 28px ;
+  display: inline-block;
+  width: 100%;
+  height: 1.8rem;
+}
+
+
+/* _____________________________Logo Picture */
+.logoImg{
+  top: 0;
+  left: 0;
+  width: 60rem;
+}
+
+.logoImg img{
+  margin: 0 0 0 90px;
+  position: absolute;
+}
+/* _____________________________Issue Date/Month */
+.issueDate{
+  font-size: 1rem;
+  font-family: Timeline; 
+  top: 1rem;
+  font-weight: 900;
+ 
+}
+.coverDate{
+ display: inline;
+ font-weight: 900; 
+ font-size: 2rem;
+  background: #000;
+  color: #ddd;
+  padding: .5rem;
+}
+/* _____________________________Hair */
+.coverHair{
+  display: inline-block;
+  /*font-family: 'Teko', sans-serif;*/
+  font-family: Chunkfive;
+  font-weight: 800;
+  font-size: 16px;
+  text-align: justify;
+  color: #1d9099;
+  text-shadow: .1vmin .1vmin 0 #E79C10, -.3vmin -.2vmin 0 #D53A33;
+  text-transform: uppercase;
+  line-height: -3px;
+  color: #000;
+  float: left;
+  margin: 120px 123.2px;
+  position: absolute;
+  padding: 2px;
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+  width: 120px;
+  height: 130px;  
+}
+.coverHair--link{
+  padding: 2px;
+}
+
+
+/*___________________Beauty */
+.coverBeauty{
+   
+   display: inline-block;
+   float: right;
+   margin: 110px 8px 0 -10px;
+   background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+   box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+   width: 150px;
+   height: 150px;
+   font-size: 1rem;
+   padding: .01rem .01rem;
+   
+}
+/* #1 Tip */
+.coverBeauty--wording{
+  font-family: LemonMilkbold;
+  font-size: 16px;
+  font-weight: 600;
+  line-height:.005rem;
+  display: inline-block;
+  margin: -4px 0 0 18px;
+}
+/*Beauty! */
+.coverBeauty--bigWord2{
+  font-family: LemonMilkbold;
+  display: inline-block;
+  float: right;
+  line-height: 1px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 18px 0 0 0;
+}
+coverBeauty--wordinga{
+  
+}
+.coverBeauty--wow{
+  color: #f11deb;
+  display: block;
+  margin: 11px 0 0 10px;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+
+/* cheats! */
+.coverBeauty--wording1{
+  margin: 30px 0 0 30px;
+  display: block;
+ letter-spacing: .001rem;  
+ opacity: .6;
+}
+/* OMG + Cheats! */
+.coverBeauty--tip{
+  font-family: LemonMilkbold;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: .01rem;
+  margin: 14px 10px 0 5px;
+  display: inline;
+  width: 20rem;
+}
+
+
+/* _____________________________Leisure */
+.coverLeisure{
+ 
+  background: rgba(0,0,0,0.9);
+  height: 300px;
+  margin: 1450px -232px; 
+  z-index: 8;
+  
+  bottom: 0;
+  width: 72vw;
+  display: inline-block;
+  position: absolute;
+}
+/* _____________________________living space */
+.coverSpace{
+  font-family:seasideresort;
+  font-size: 30px;
+  line-height: 1px;
+  color: #f1541d;
+  display: inline;
+  z-index: 8;
+  float: left;
+  width: 100px;
+  height: 100px;
+    
+  margin: 715px 125px;
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+/* _____________________________Books */
+.coverBook{
+
+  font-size: 19px;
+  line-height: 9.2px; 
+  padding: 1%;
+  width: 140px;
+  display: inline;
+  position: absolute;
+  text-shadow:
+    -1px -1px 0 #f36,
+    1.2px -1.2px 0 #526,
+    -3px 3px 0 #48f,
+    1.2px 1.2px 0 #f8f,
+    2px 2px 0 #fff,
+    3px 2px 0 #fff,
+    3.2px 3.2px 0 #4f7,
+    3.5px 3.5px 0 #47f;
+  background: transparent;
+  margin: 1825px -115px;
+  z-index: 9;
+  bottom: 0;
+ box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+  
+}
+
+  /* _____________________________Social */
+.coverSocial{
+  
+  display: inline-block;
+  color: #666;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 17px; 
+  float: right;
+  padding: 5px;
+  margin: -840px 50px;
+  border-right: 6px solid red;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+.coverSocial--media{
+  background: rgba(0,0,180,.8);
+  font-size: 20px;
+  color: #fff;
+  width: 150px;
+  padding: 1px;
+  transform: rotateZ(5deg);
+  display: inline-block;
+  margin: 5px -15.1px;
+  position: absolute;
+    
+}
+.coverSocial--media s{
+  font-weight: 900;
+}
+/* _____________________________info */
+.coverInfo{
+  
+  border-left: 6px solid green;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 17px;
+  display: block;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+  position: absolute;
+  padding: 5px;
+  float: right;
+  margin: 541px 0 0 400px; 
+}
+.coverInfo-article{
+  
+}
+.coverInfo--tip{
+  color: #000;
+}
+
+.coverInfo-article{
+  /*border: 4px solid #f1541d;
+  border-radius: 100%; */
+  
+  }
+  /* _____________________________Cities */
+ .coverCities{ 
+  /*background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));*/
+  line-height: 15px;
+  font-size: 25px;
+  text-align: right;
+  font-weight: 600;
+  text-shadow:
+    -1px -1px 0 #666,
+    1.2px -1.2px 0 #fff,
+    -1.5px 1.5px 0 #fff,
+    1.2px 1.2px 0 #f55,
+    1.4px 2px 0 #f55,
+    2px 1px 0 #666,
+    2px 2.3px 0 #fff,
+    3.5px 3.5px 0 rgba(1,1,1,0);
+  padding: 20px 25px;
+  margin: 550px -220.2px;
+  width: 120px;
+  height: 110px;
+  
+  float: left;
+  display: inline;
+  z-index: 8;
+  /*clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 6% 100%, 6% 80%, 0% 80%);*/
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+/* _____________________________Business */
+.coverBusiness{
+  
+  font-weight: 600;
+  background: transparent;
+  line-height: 6px;
+  font-size: 12px;
+  color: #000;
+  border: 3px solid #000;
+  display: inline-block;
+  margin: 570px -91px;
+  z-index: 8;
+  
+  position: absolute;
+  padding: .5px 3px;
+  outline: 1px dashed #98abb9;
+ outline-offset: -5px;
+ -webkit-box-shadow: 2px 2px 2px #000;
+ -moz-box-shadow: 2px 2px 2px #000;
+ box-shadow: 2px 2px 2px #000;
+ box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+/*____________________________________*/
+.plate {
+  width: auto;
+  margin: 1% auto;
+}
+/*
+.shadow {
+  color: #fff;
+  
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #22e,
+    1.2px -1.2px 0 #22e,
+    -3px 3px 0 #222,
+    1.2px 1.2px 0 #222,
+    2px 2px 0 #fff,
+    3px 2px 0 #fff,
+    3.2px 3.2px 0 #ff0,
+    3.5px 3.5px 0 #ff0;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+*/
+.script {
+  
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 13px;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 25%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 14px;
+}
+.text2 {
+  font-size: 18px;
+}
+.text3 {
+  font-size: 17px;
+}
+
+/*____________________________ Text efffect*/
+
+.coverBusiness--article{
+  
+}
+.coverBusiness--tip {
+  
+}
+.coverBusiness--bigWord{
+  
+}
+.coverBusiness--word{
+  background: #000;
+  color: #333;
+}
+.coverBusiness--wording{
+  
+}
+/* _____________________________Food */
+.coverFood{
+  border: 2px dashed red;
+  font-size: 18px;
+  text-align: right;
+  color: #000;
+  padding: 5px;
+  line-height: 10px;
+  margin: -1240px 30px;
+  display: inline-block;
+  float: right;
+  width: 100px;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+.coverFood--greenline{
+ color: #0f0; 
+}
+
+.coverCities--tip{
+  
+}
+/* _____________________________hair */
+
+.realBody{
+  background: #fff;
+ 
+}
+.lpanel{
+ 
+}
+
+
+
+.showOnHover{
+  display: block;
+  height: 20rem;
+  width: 20rem;
+  
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,0), rgba(255,0,255,0));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 0.1rem;
+  margin: -2rem -2rem;  
+}
+
+/* _____________________________Members */
+.coverMembers{
+  
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2px;
+  display: block;
+  height: 155px;
+  width: 120px;
+  position: absolute;
+  margin: 110px 253px;
+ text-shadow: -1px -1px 3px #666666,
+                       1px 1px 3px #FFFFFF;
+ box-shadow: -1px -1px 3px #fffff,
+                       1px -3px -5px #666666,
+                       4px 3px 1px #000000;
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+  /*clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);*/
+  padding: 4px;
+  cursor: pointer
+ 
+}
+
+.coverMembers{
+  font-size: 16px;
+  line-height: 6px;
+}
+
+.coverMembers--bigNum{
+ text-shadow: -1px -1px 3px #f16089,
+                       1px 1px 3px #a1f99c; 
+ font-family:seasideresort;
+ font-size: 26px;
+ font-weight: 900;
+ text-decoration: underline;
+}
+
+.coverMembers:hover #showOnhover{
+  
+  height: 20rem;
+  width: 20rem;
+ 
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 1rem;
+  
+}
+
+
+.coverLeisure--article{
+  
+}
+
+/* _____________________________TinyText */
+.tinyText{
+ 
+  border: 1px solid green;
+}
+
+/* __________________________________ coverTech */
+
+.coverTech{
+  display: none;
+  position: absolute;
+  width: 90px;
+  float: right;
+  margin: 850px -210px;
+  background-image: url(yellowMarker.png);
+  background-size: cover;
+  border: 1px solid red;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebook{
+  background: #3B5998;
+}
+.btn-gmail{
+  background: #DD4B39
+}
+.btn-linkedin{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-ise{
+  position: fixed;
+  background: transparent;
+  width: 10%;
+  top: 600px;
+  left: 30px;
+  padding-left: .3rem;
+  bottom: 48px;
+  z-index: 400;
+  background-image: url("Teli.png") no-repeat;
+  background-position: 10% 10%;
+  
+}
+.v-msg{
+	position: relative;
+	background: #fff;
+	border-radius: .4em;
+    content: attr(data-text);
+    position: relative;
+    width: 11.7rem;
+    top: 0;
+    left: 0;  
+    height: 5rem;
+    padding: 1rem .3rem;
+}
+
+.v-msg:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+.v-msg{
+  
+ 
+}
+.no-ise div#audioMsg audio{
+  width: 14%;
+  background: transparent;
+  margin: 2rem 1rem;
+}
+
+.page-menu{
+  position: fixed;
+  right: 0;
+  margin: -80rem 3rem;
+  background-image: url(blueMarker.png);
+  background-size: cover;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  transform: rotateZ(45deg); 
+}
+.hiddenDiv{
+  display: none;
+}
+
+
+/* =============================== Demo */
+
+.big-img a img{
+  font-size: 1rem;
+}
+
+.damaged{
+  display: inline;
+}
+
+.solarCalendar{
+ display: block;
+ width: 100%;
+ height: 3.5rem;
+ padding: 0 2%; 
+ margin: 0 auto;
+}
+
+.solarCalendar input {
+  width: 95%;
+  height: 20px;
+  margin: 0;
+  transform-origin: 75px 75px;
+  transform: rotate(0deg);
+  z-index: 201;
+}
+
+.top-bar-left, .top-bar-left ul{
+  background: transparent;
+}
+
+.menu{
+  background: transparent;
+}
+
+.top-bar{
+  background: rgba(1,1,1,.3);
+  box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+	-webkit-box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+	-moz-box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+}
+
+button.button{
+  background: transparent;
+  border: 1px solid rgba(1,1,1,0.8);
+  
+  color: rgba(128,128,128,1);
+  box-shadow: .1vmin 1vmin .1vmin #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+
+i.menu-svg img{
+  width: 20px;
+  height: 20px;
+}
+
+.off-canvas-content button{
+  margin: 2rem .2rem;
+  width: 6rem;
+}
+
+.exit{
+  display: inline;
+  padding: 2px;
+  font-family: roboto;
+  font-size: .8rem;
+  text-transform: capitalize;
+  color: rgba(255,58,58,1);
+  
+}
+
+
+usr img{
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border: 2px dotted rgba(236, 164, 0, 1);
+}
+
+
+.off-canvas position-left {
+  background: rgba(0,0,0,1);
+}
+
+off-canvas position-left, is-transition-overlap, is-open{
+  background: transparent;
+}
+
+.is-transition-overlap{}
+
+.is-closed{
+  
+}
+
+.off-canvas.is-open{
+ background-image: linear-gradient(to bottom right, rgba(255,256,0,0), rgba(255,0,255,0));
+  
+}
+
+#offCanvas ul{
+  background: transparent;
+}
+
+.off-canvas{
+  background: rgba(236, 164, 0, .81);
+}
+
+.accordion-title{
+  border: 1px solid rgba(236, 164, 0, .81);
+  color: #333;
+  text-shadow: .1vmin .1vmin 0 #E79C10, -.3vmin -.2vmin 0 #D53A33;
+}
+
+.accordion-title:hover, .accordion-title:focus{
+  background: rgba(236, 78, 32, 1);
+}
+
+.accordion-content{
+  background: rgba(255,156,0,1);
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+:last-child:not(.is-active) > .accordion-title{
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+:last-child > .accordion-content:last-child{
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+  
+  body, .coverBody{
+    width: 764px;
+    
+  }      
+   
+  /*
+$color1: rgba(236, 164, 0, 1);
+$color2: rgba(243, 66, 19, 1);
+$color3: rgba(88, 164, 176, 1);
+$color4: rgba(252, 176, 179, 1);
+$color5: rgba(53, 24, 104, 1);
+$color1: rgba(206, 255, 26, 1);
+$color2: rgba(60, 22, 66, 1);
+$color3: rgba(8, 9, 10, 1);
+$color4: rgba(236, 78, 32, 1);
+$color5: rgba(167, 162, 169, 1);
+$color1: rgba(255, 7, 151, 1);
+$color2: rgba(178, 41, 232, 1);
+$color3: rgba(83, 28, 254, 1);
+$color4: rgba(46, 92, 230, 1);
+$color5: rgba(11, 193, 255, 1);
+$color1: rgba(125, 100, 51, 1);
+$color2: rgba(223, 81, 54, 1);
+$color3: rgba(255, 99, 55, 1);
+$color4: rgba(225, 79, 54, 1);
+$color5: rgba(195, 100, 52, 1);
+*/
+  
+  
+  
+div.jan{
+  background: rgba(243, 66, 19, 1);
+}
+
+div.feb{
+  background: rgba(236, 164, 0, 1);
+}
+
+div.mar{
+  background: rgba(236, 78, 32, .81);
+}
+
+div.apr{
+  background: rgba(88, 164, 176, 1);
+  
+}
+
+div.may{
+  background: rgba(46, 92, 230, 1);
+}
+
+div.jun{
+  background: rgba(206, 255, 26, 1);
+}
+
+div.jul{
+  background: rgba(46, 92, 230, 1);
+}
+
+div.aug{
+  background: rgba(255, 7, 151, 1);
+}
+
+div.sep{
+  background: rgba(252, 176, 179, 1);
+}
+
+div.oct{
+  background: rgba(53, 24, 104, 1);
+}
+
+div.nov{
+  background: rgba(225, 79, 54, 1);
+}
+
+div.dec{
+  background: rgba(125, 100, 51, 1);
+}
+
+
+
+/* ___________________________________________________________________# 12 social Media options */
+  
+ body.coverBody{
+   
+ }  
+/*________________________________________________________________#  main body of the entire app */
+
+.shadow{
+  /*______________________________________________________________# The design of the top bar = inset css-shadow */
+  
+  
+}
+
+.top-bar{
+   /*______________________________________________________________# Top bar */
+box-shadow: inset 0px 0px 20px 0px #000;
+-webkit-box-shadow: inset 0px 0px 20px 0px #000;
+-moz-box-shadow: inset 0px 0px 20px 0px #000;
+-o-box-shadow: inset 0px 0px 20px 0px #000;
+
+background: transparent;
+
+
+} 
+
+
+
+div.monthBody{
+  margin: -12px 15px;
+  display: inline;
+  
+}
+
+div.coverMonthBtn{
+  width: auto;
+}
+
+div.row, .row ul li{
+display: inline;
+margin: -2px 0 0 2px;
+height: 35px;
+}
+
+
+.monthBody label::after, .monthBody label::before{
+  position: absolute;
+  margin: 0 5px;
+}
+
+
+.monthBody label::before{
+  content:'';
+  display: inline-block;
+  height: 26px; 
+  width: 26px;
+  border: 1px solid rgba(255, 255, 30, .6);
+  
+}
+
+
+
+.top-bar-left{
+   /*______________________________________________________________# Top bar left*/
+   
+   width: 760px;
+   margin: 0;
+   background: transparent;
+   
+}
+
+div.row, .row ul{
+  width: 760px;
+  
+}
+
+
+.yearApp{
+   /*______________________________________________________________# The Year App */
+   background: transparent;
+}
+
+.yearApp form{
+   /*______________________________________________________________# The Year App */
+}
+
+
+.top-bar-right{
+     /*______________________________________________________________# Top right | Search bar*/
+  
+  
+}
+
+.top-bar, .top-bar ul{
+  background: transparent;
+}
+
+.top-bar-right .menu ul{
+/*______________________________________________________________# Top right | */
+  
+width: 760px;
+
+}
+
+.menu ul{
+  margin-left: 50px; 
+}
+
+.menu ul li{
+  width: 120px;
+}
+div.row, .row ul li{
+  
+  
+}
+nav.tab-bar, tab-bar{
+  /*______________________________________________________________# Navigation bar | 12 radio buttons */
+
+  background: transparent;
+  
+}
+
+
+div.row, .row ul{
+  /*______________________________________________________________# Container | menu*/
+  background: transparent;
+  width: 760px;
+  
+}
+
+.yearApp{
+  padding: 0;
+  margin: 0;
+  width: 760px;
+}
+
+.whatinput-types-initial .whatinput-types-initial .whatinput-types-touch .whatinput-types-touch{
+  
+}
+
+
+.top-bar-left ul{
+/*______________________________________________________________# Topleft bar + left-bar unordered list*/
+
+  
+}
+ 
+.top-bar-right ul{
+  /*______________________________________________________________# Topright bar + right-bar unordered list*/
+  margin: 0 -143px;
+ 
+  position: absolute;
+}
+
+.top-bar-right ul input{
+   width: 500px;
+   margin: 0 -160px;
+}
+
+.dropdown, .menu ul{
+ background: transparent;
+ width: 768px;
+ margin: 0;
+ padding: 0;
+}
+
+
+ul.menu.search{
+  /*______________________________________________________________# Topright bar + right-bar search bar*/
+}
+
+.top-bar-right .menu input[type=search]{
+  
+  
+  
+  /*______________________________________________________________# Search bar. */
+}
+
+
+.top-bar-right .menu ul li .button button{
+  
+  /*______________________________________________________________# Search button. */
+}
+
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}

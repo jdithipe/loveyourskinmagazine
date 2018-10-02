@@ -1,0 +1,317 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2018, 10:38:22 PM
+    Author     : jamushe
+*/
+
+
+  
+  
+  
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+/*__________________________________________________Radio*/
+
+/* RGB 
+
+$color1: rgba(253, 203, 110, 1);
+$color2: rgba(108, 92, 231, 1);
+$color3: rgba(241, 143, 1, 1);
+$color4: rgba(255, 234, 167, 1);
+$color5: rgba(214, 48, 49, 1);
+
+*/
+
+
+  
+
+.ydate{
+ padding: 1rem 0;
+}
+
+.thisMonth{
+  z-index: 900;
+  opacity:.75;
+}
+
+
+/* -------- Month Name
+$color1: rgba(101, 222, 241, 1);
+$color2: rgba(12, 12, 12, 1);
+$color3: rgba(233, 79, 55, 1);
+$color4: rgba(255, 212, 0, 1);
+$color5: rgba(249, 0, 147, 1);
+*/
+
+
+/* DayOfMonth
+$color1: rgba(255, 0, 0, 1);
+$color2: rgba(255, 110, 0, 1);
+$color3: rgba(255, 221, 2, 1);
+$color4: rgba(51, 255, 51, 1);
+$color5: rgba(49, 203, 0, 1);
+*/
+
+.thisMonth .dayOfMonth label{
+  
+  color: rgba(255,255,255,1);
+  text-shadow: 1px 3px 1px #000;
+}
+
+.fri, .sat, .sun{
+  background: rgba(255, 221, 2, .81);
+}
+
+.dayOfMonth{
+  display: block;
+  width: 3.2rem;
+  height: 3rem;
+  padding: 0;
+  left: .5rem;
+  border: 1px solid;
+  cursor: pointer; 
+}
+
+.dayOfMonth:hover{
+  
+  
+  box-shadow: 0 0 1px #fff, 
+               0 0 2px rgba(246, 16, 103, 1), 
+               0 0 3px #fff, 
+               0 0 4px rgba(246, 16, 103, 1), 
+               0 0 5px rgba(246, 16, 103, 1), 
+               0 0 1px #228DFF, 
+               0 0 2px rgba(246, 16, 103, 1), 
+               0 0 3px #228DFF; 
+  cursor: pointer;
+}
+
+.dayOfMonth:hover label{
+  
+  font-weight: 600;
+  color: rgba(0,0,0,1);
+  text-shadow: 1px 1px 1px #000;
+}
+/*
+$color1: rgba(43, 45, 66, 1);
+$color2: rgba(246, 16, 103, 1);
+$color3: rgba(238, 180, 179, 1);
+$color4: rgba(115, 0, 113, 1);
+$color5: rgba(0, 240, 181, 1);
+*/
+
+b.coverDay{
+  display: block;
+  padding: 0 1rem;
+  color: rgba(255, 255, 255, 1);
+  font-size: 2.2rem;
+  text-shadow: 1px 1px 1px rgba(43, 45, 66, 1);
+}
+
+b.coverDaydd{
+    margin: 0 -.21rem;
+}
+
+.dayOfMonth label span sub{
+ background:transparent;
+ font-size: .95rem;
+ display: inline;
+ padding: 0 1.2rem 0 1.3rem;
+ margin-left: -1.5rem; 
+}
+
+.thisMonth .dayOfMonth label span{
+ display: block;
+ width: 3.5rem; 
+ height: 1.5rem;
+ right: 0;
+ background: transparent;
+ clear: both;
+ padding: 0 1rem;
+ margin: -.52rem 0;
+
+}
+
+
+.dayOfMonth input[type=radio]{
+  position: absolute;
+  margin: 3.8rem 0;
+  visibility: hidden;
+  display: none;
+}
+
+input[type=radio]:checked + label{
+  background: rgba(255, 221, 2, 1);
+}
+
+.dayOfMonth label + input[type=radio]:checked + label{
+  background: rgba(255, 221, 2, 1);
+}
+
+
+
+div.thisMonth ul{
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  
+}
+
+div.thisMonth ul:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border: 1px dashed #000;
+  
+}
+
+div.thisMonth ul li{
+ margin: 10px 1px; 
+ position: relative;
+}
+
+div.thisMonth ul li span{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 0;
+  height: 100%;
+  width: 0;
+  /*border: 1px solid #f00;*/
+  
+}
+
+div.thisMonth ul li span:before, div.thisMonth ul li span:after{
+  content: '';
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  border: #000 1px solid;
+  border-radius: 10px;
+  left: 0;
+  display: none;
+}
+
+div.thisMonth ul li span:before{
+  top: -2%;
+  
+background: #f0f;
+} 
+div.thisMonth ul li span:after{
+  top: 90%;
+  
+  background: #00f;
+}
+div.thisMonth ul li div.comms i{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  
+}
+
+div.thisMonth ul li div.comms i:first-child{
+  
+  top: 40%;
+  left: 5px;
+}
+div.thisMonth ul li div.comms i:last-child{
+  
+  top: 10%;
+  left: 2.8rem;
+  
+}
+
+
+.fi-comment-quotes{
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 0 1px #ff3eff; ;
+}
+
+.fi-at-sign{
+  font-size: 18px;
+  color: rgba(108, 92, 231, 1);
+  text-shadow: 0 0 1px #fff, 
+               0 0 2px #fff, 
+               0 0 3px #fff, 
+               0 0 4px #228DFF, 
+               0 0 5px #228DFF, 
+               0 0 1px #228DFF, 
+               0 0 2px #228DFF, 
+               0 0 3px #228DFF; 
+  display: none;
+}
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}

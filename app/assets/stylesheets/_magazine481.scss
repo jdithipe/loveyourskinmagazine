@@ -1,0 +1,798 @@
+@import "radiosMin481.scss";
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+  body{
+  width: 481px;
+  
+  }
+
+
+  .off-canvas-content button.button{
+    //margin: -5260px 0 0 52px
+  }
+  
+.magazine{
+ 
+  
+  height: 500px;
+  width: 100%;
+  background-image: url(afro_model.jpg);
+  background-position: 50% 50%;
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  }
+
+  
+.cover{
+  
+  position: relative;
+  top: 0;
+  margin: 20px auto;
+  background: transparent;
+  background-size: cover;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  z-index: 9;
+  display: block;
+  width: 70vw;
+  height: 430px;
+  overflow-y: scroll;
+  margin: 0 auto;
+  box-shadow: 15px 20px 25px rgba(0,0,0,0.8);
+}
+
+.logoImg img{
+  width: 240px;
+}
+.thisMonth{
+  height: 323.5%;
+  width: 80px;
+  left: -.1rem;
+  padding: 1% 0 5% 0;
+  display: block;
+  position: absolute;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+legend.monthName{
+  font-family: roboto;
+  font-size: 30px;
+  margin: 60px 0 0 30px;
+  position: absolute;
+}
+
+
+.ydate legend{
+  position: absolute;
+  transform: rotateZ(90deg);
+  
+  color: rgba(255, 212, 0, 1);
+  /*text-shadow: rgba(255, 110, 0, 1) 1px 1px 2px;*/
+  margin: 70px 20px 0 -5px ;
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+}
+
+.weekDay sub{
+  font-size: 7px;
+}
+
+.weekDay{
+  font-size: 9px;
+}
+
+/* _____________________________Logo Picture */
+.logoImg{
+  top: 0;
+  left: 0;
+  width: 60rem;
+}
+
+.logoImg img{
+  margin: 0 0 0 90px;
+  position: absolute;
+}
+/* _____________________________Issue Date/Month */
+.issueDate{
+  font-size: 1rem;
+  font-family: Timeline; 
+  top: 1rem;
+  font-weight: 900;
+ 
+}
+.coverDate{
+ display: inline;
+ font-weight: 900; 
+ font-size: 2rem;
+  background: #000;
+  color: #ddd;
+  padding: .5rem;
+}
+/* _____________________________Hair */
+.coverHair{
+  display: inline-block;
+  /*font-family: 'Teko', sans-serif;*/
+  font-family: Chunkfive;
+  font-weight: 400;
+  font-size: 9px;
+  text-align: left;
+  color: #1d9099;
+  text-shadow: .1vmin .1vmin 0 #E79C10, -.3vmin -.2vmin 0 #D53A33;
+  text-transform: uppercase;
+  line-height: -3px;
+  color: #000;
+  float: left;
+  margin: 70px 83.2px;
+  position: absolute;
+  padding: 1px;
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+  width: 60px;
+  height: 70px;  
+}
+.coverHair--link{
+  padding: 2px;
+}
+
+
+/*___________________Beauty */
+.coverBeauty{
+   
+   display: inline-block;
+   float: right;
+   margin: 78px 8px 0 0;
+   background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+   box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+   width: 50px;
+   height: 70px;
+   font-size: 10px;
+   padding: 1px;
+   
+}
+/* #1 Tip */
+.coverBeauty--wording{
+  font-family: LemonMilkbold;
+  font-size: 10px;
+  font-weight: 600;
+  line-height:5px;
+  display: inline-block;
+  margin: -10px 0;
+  position: absolute;
+}
+/*Beauty! */
+.coverBeauty--bigWord2{
+  font-family: LemonMilkbold;
+  display: inline-block;
+  float: left;
+  line-height: 1px;
+  font-size: 10px;
+  font-weight: 600;
+  margin: 0;
+  position: absolute;
+}
+coverBeauty--wordinga{
+  
+}
+.coverBeauty--wow{
+  color: #f11deb;
+  display: block;
+  margin: 0;
+  font-size: 10px;
+  position: absolute;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+}
+
+
+/* cheats! */
+.coverBeauty--wording1{
+  margin: 0;
+  display: block;
+  margin: -12px 0;
+ letter-spacing: 1px;  
+ opacity: .6;
+}
+/* OMG + Cheats! */
+.coverBeauty--tip{
+  font-family: LemonMilkbold;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1px;
+  margin: 0;
+  display: inline;
+  width: 20px;
+}
+
+
+/* _____________________________Leisure */
+.coverLeisure{
+ 
+  background: rgba(0,0,0,0.9);
+  height: 300px;
+  margin: 1450px -232px; 
+  z-index: 8;
+  
+  bottom: 0;
+  width: 72vw;
+  display: inline-block;
+  position: absolute;
+}
+/* _____________________________living space */
+.coverSpace{
+  font-family:seasideresort;
+  font-size: 10px;
+  line-height: 1px;
+  color: #f1541d;
+  display: inline;
+  z-index: 8;
+  float: left;
+  width: 45px;
+  height: 40px;
+    
+  margin: -70px 225px;
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+/* _____________________________Books */
+.coverBook{
+
+  font-size: 19px;
+  line-height: 9.2px; 
+  padding: 1%;
+  width: 140px;
+  display: inline;
+  position: absolute;
+  text-shadow:
+    -1px -1px 0 #f36,
+    1.2px -1.2px 0 #526,
+    -3px 3px 0 #48f,
+    1.2px 1.2px 0 #f8f,
+    2px 2px 0 #fff,
+    3px 2px 0 #fff,
+    3.2px 3.2px 0 #4f7,
+    3.5px 3.5px 0 #47f;
+  background: transparent;
+  margin: 1825px -115px;
+  z-index: 9;
+  bottom: 0;
+ box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+  
+}
+
+  /* _____________________________Social */
+.coverSocial{
+  
+  display: inline-block;
+  color: #666;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 17px; 
+  float: right;
+  padding: 5px;
+  position: absolute;
+  margin: 341px 0 -20px 235px;
+  border-right: 6px solid red;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+.coverSocial--media{
+  background: rgba(0,0,180,.8);
+  font-size: 10px;
+  color: #fff;
+  width: 50px;
+  line-height: 9px;
+  padding: 1px;
+  transform: rotateZ(5deg);
+  display: inline-block;
+  margin: 1px -15.1px;
+  position: absolute;
+    
+}
+.coverSocial--media s{
+  font-weight: 900;
+}
+/* _____________________________info */
+.coverInfo{
+  
+  border-left: 6px solid rgba(0,0,0,0);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 7px;
+  display: block;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+  position: absolute;
+  padding: 2px;
+  float: right;
+  margin: 255px 0 -35px 250px; 
+}
+.coverInfo-article{
+  
+}
+.coverInfo--tip{
+  color: #000;
+}
+
+.coverInfo-article{
+  /*border: 4px solid #f1541d;
+  border-radius: 100%; */
+  
+  }
+  /* _____________________________Cities */
+ .coverCities{ 
+  /*background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));*/
+  line-height: 15px;
+  font-size: 15px;
+  text-align: right;
+  font-weight: 600;
+  text-shadow:
+    -1px -1px 0 #666,
+    1.2px -1.2px 0 #fff,
+    -1.5px 1.5px 0 #fff,
+    1.2px 1.2px 0 #f55,
+    1.4px 2px 0 #f55,
+    2px 1px 0 #666,
+    2px 2.3px 0 #fff,
+    3.5px 3.5px 0 rgba(1,1,1,0);
+  padding: 2px 5px;
+  margin: 185px 80px;
+  width: 60px;
+  height: 75px;
+  
+  float: left;
+  display: inline;
+  z-index: 8;
+  /*clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 6% 100%, 6% 80%, 0% 80%);*/
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+/* _____________________________Business */
+.coverBusiness{
+  
+  font-weight: 600;
+  background: transparent;
+  line-height: 1px;
+  font-size: 9px;
+  color: #000;
+  border: 3px solid #000;
+  display: inline-block;
+  margin: 340px 144px;
+  z-index: 8;
+  position: absolute;
+  padding: .5px 3px;
+  outline: 1px dashed #98abb9;
+ outline-offset: -5px;
+ -webkit-box-shadow: 2px 2px 2px #000;
+ -moz-box-shadow: 2px 2px 2px #000;
+ box-shadow: 2px 2px 2px #000;
+ box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+/*____________________________________*/
+.plate {
+  width: auto;
+  margin: 1% auto;
+}
+/*
+.shadow {
+  color: #fff;
+  
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #22e,
+    1.2px -1.2px 0 #22e,
+    -3px 3px 0 #222,
+    1.2px 1.2px 0 #222,
+    2px 2px 0 #fff,
+    3px 2px 0 #fff,
+    3.2px 3.2px 0 #ff0,
+    3.5px 3.5px 0 #ff0;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+*/
+.script {
+  
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 5px;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 25%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text1 {
+  font-size: 9px;
+}
+.text2 {
+  font-size: 10px;
+}
+.text3 {
+  font-size: 10px;
+}
+
+/*____________________________ Text efffect*/
+
+.coverBusiness--article{
+  
+}
+.coverBusiness--tip {
+  
+}
+.coverBusiness--bigWord{
+  
+}
+.coverBusiness--word{
+  background: #000;
+  color: #333;
+}
+.coverBusiness--wording{
+  
+}
+/* _____________________________Food */
+.coverFood{
+  border: 2px dashed red;
+  font-size: 9px;
+  text-align: right;
+  color: #000;
+  padding: 1px;
+  line-height: 6px;
+  margin: -433px 20px;
+  display: inline-block;
+  float: right;
+  width: 80px;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+.coverFood--greenline{
+ color: #0f0; 
+}
+
+.coverCities--tip{
+  
+}
+/* _____________________________hair */
+
+.realBody{
+  background: #fff;
+ 
+}
+.lpanel{
+ 
+}
+
+
+
+.showOnHover{
+  display: block;
+  height: 20rem;
+  width: 20rem;
+  
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,0), rgba(255,0,255,0));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 0.1rem;
+  margin: -2rem -2rem;  
+}
+
+/* _____________________________Members */
+.coverMembers{
+  
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 2px;
+  display: block;
+  height: 89px;
+  width: 55px;
+  text-align: center;
+  position: absolute;
+  margin: 69px 153px;
+ text-shadow: -1px -1px 3px #666666,
+                       1px 1px 3px #FFFFFF;
+ box-shadow: -1px -1px 3px #fffff,
+                       1px -3px -5px #666666,
+                       4px 3px 1px #000000;
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+  /*clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);*/
+  padding: 2px;
+  cursor: pointer
+}
+
+.coverMembers{
+  font-size: 9px;
+  line-height: 1px;
+}
+
+.coverMembers--bigNum{
+ text-shadow: -1px -1px 3px #f16089,
+                       1px 1px 3px #a1f99c; 
+ font-family:seasideresort;
+ font-size: 13px;
+ font-weight: 900;
+ text-decoration: underline;
+}
+
+.coverMembers:hover #showOnhover{
+  
+  height: 100px;
+  width: 100px;
+ 
+  background-image: linear-gradient(to bottom right, rgba(255,256,0,.7), rgba(255,0,255,.4));
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  padding: 1rem;
+  
+}
+
+
+.coverLeisure--article{
+  
+}
+
+/* _____________________________TinyText */
+.tinyText{
+ 
+  border: 1px solid green;
+}
+
+/* __________________________________ coverTech */
+
+.coverTech{
+  display: none;
+  position: absolute;
+  width: 90px;
+  float: right;
+  margin: 850px -210px;
+  background-image: url(yellowMarker.png);
+  background-size: cover;
+  border: 1px solid red;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  box-shadow: .1vmin 1vmin 0 #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+
+/* ______________________________Social Media Menu - Button */
+
+.btn-facebook{
+  background: #3B5998;
+}
+.btn-gmail{
+  background: #DD4B39
+}
+.btn-linkedin{
+  background: #007BB6
+}
+.btn-twitter{
+  background: #55ACEE
+}
+.btn-whatsapp{
+  background: #DD4B39
+}
+.btn-email{
+  background: #DD4B39
+}
+
+.no-ise{
+  position: fixed;
+  background: transparent;
+  width: 10%;
+  top: 600px;
+  left: 30px;
+  padding-left: .3rem;
+  bottom: 48px;
+  z-index: 400;
+  background-image: url("Teli.png") no-repeat;
+  background-position: 10% 10%;
+  
+}
+.v-msg{
+	position: relative;
+	background: #fff;
+	border-radius: .4em;
+    content: attr(data-text);
+    position: relative;
+    width: 11.7rem;
+    top: 0;
+    left: 0;  
+    height: 5rem;
+    padding: 1rem .3rem;
+}
+
+.v-msg:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+.v-msg{
+  
+ 
+}
+.no-ise div#audioMsg audio{
+  width: 14%;
+  background: transparent;
+  margin: 2rem 1rem;
+}
+
+.page-menu{
+  position: fixed;
+  right: 0;
+  margin: -80rem 3rem;
+  background-image: url(blueMarker.png);
+  background-size: cover;
+  background-position-x: 0;
+  backgroud-position-y: 0;
+  background-repeat: no-repeat;
+  transform: rotateZ(45deg); 
+}
+.hiddenDiv{
+  display: none;
+}
+
+
+/* =============================== Demo */
+
+.big-img a img{
+  font-size: 1rem;
+}
+
+.damaged{
+  display: inline;
+}
+
+.solarCalendar{
+ display: block;
+ width: 100%;
+ height: 3.5rem;
+ padding: 0 2%; 
+ margin: 0 auto;
+}
+
+.solarCalendar input {
+  width: 95%;
+  height: 20px;
+  margin: 0;
+  transform-origin: 75px 75px;
+  transform: rotate(0deg);
+  z-index: 201;
+}
+
+.top-bar-left, .top-bar-left ul{
+  background: transparent;
+}
+
+.menu{
+  background: transparent;
+}
+
+.top-bar{
+  background: rgba(1,1,1,.3);
+  box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+	-webkit-box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+	-moz-box-shadow: 1px 0 41px rgba(0, 0, 0, 1) inset; 
+}
+
+button.button{
+  background: transparent;
+  border: 1px solid rgba(1,1,1,0.8);
+  
+  color: rgba(128,128,128,1);
+  box-shadow: .1vmin 1vmin .1vmin #E79C10, -.3vmin -1vmin 0 #D53A33;
+}
+
+i.menu-svg img{
+  width: 20px;
+  height: 20px;
+}
+
+.off-canvas-content button{
+  margin: 2rem .2rem;
+  width: 6rem;
+}
+
+.exit{
+  display: inline;
+  padding: 2px;
+  font-family: roboto;
+  font-size: .8rem;
+  text-transform: capitalize;
+  color: rgba(255,58,58,1);
+  
+}
+
+
+usr img{
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border: 2px dotted rgba(236, 164, 0, 1);
+}
+
+
+.off-canvas position-left {
+  background: rgba(0,0,0,1);
+}
+
+off-canvas position-left, is-transition-overlap, is-open{
+  background: transparent;
+}
+
+.is-transition-overlap{}
+
+.is-closed{
+  
+}
+
+.off-canvas.is-open{
+ background-image: linear-gradient(to bottom right, rgba(255,256,0,0), rgba(255,0,255,0));
+  
+}
+
+#offCanvas ul{
+  background: transparent;
+}
+
+.off-canvas{
+  background: rgba(236, 164, 0, .81);
+}
+
+.accordion-title{
+  border: 1px solid rgba(236, 164, 0, .81);
+  color: #333;
+  text-shadow: .1vmin .1vmin 0 #E79C10, -.3vmin -.2vmin 0 #D53A33;
+}
+
+.accordion-title:hover, .accordion-title:focus{
+  background: rgba(236, 78, 32, 1);
+}
+
+.accordion-content{
+  background: rgba(255,156,0,1);
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+:last-child:not(.is-active) > .accordion-title{
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+:last-child > .accordion-content:last-child{
+    border: 1px solid rgba(236, 164, 0, .81);
+}
+
+
+
+
+
+}

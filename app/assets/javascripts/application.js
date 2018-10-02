@@ -10,7 +10,23 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
+//= require_tree .
 //= require rails-ujs
+//= require foundation
 //= require activestorage
 //= require turbolinks
-//= require_tree .
+
+ 
+
+
+
+
+
+
+
+
+// ===================================================================== from application.html.erb
+document.getElementByTagName("label::before").onmouseover = function (e) {
+    e.target.checked = true;
+}

@@ -4,24 +4,262 @@
     <title>Loveyourskinmagazine</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+<!-- 
+        Meta-tags____________________________________________________________________________
+-->
+
+
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>    
+    
+    
+    <link rel="stylesheet" href="../../assets/stylesheets/foundation.css" />
+    <link rel="stylesheet" href="../../assets/stylesheets/foundation-icons/foundation-icons.css" />
+    <link rel="stylesheet" href="../../assets/application.css" />
+
+
+<!-- 
+        StyleSheets____________________________________________________________________________
+-->
+    <%= javascript_include_tag 'jquery', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'what-input', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'foundation', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+<!-- 
+        Javascript____________________________________________________________________________
+-->
   </head>
 
-  <body>
+<body class="coverBody">
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
 
-<ul class="nav">
-    <% if user_signed_in? -%>
-      <li><%= link_to 'Sign out', destroy_user_session_path, :method => :delete %></li>
-    <% else -%>
-      <li><%= link_to 'Sign in', new_user_session_path %></li>
-    <% end -%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<div class="top-bar shadow">
+  <div class="top-bar-left"><!-- div class="coverYear" -->
+<%= render "now/year/radiobtn" %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+  
+</div>
+
+<%= render "now/social/social" %>
+
+<%= yield %>
+
+<div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+<ul class="accordion" data-accordion data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" id="deeplinked-accordion">
+  <li class="accordion-item is-active" data-accordion-item> <a href="#deeplink1" class="accordion-title">
+<% if current_user %><%= image_tag("#{current_user.picture}", :class => "usr", :width => "32", :height => "32") %> 
+<% else %>
+<% end %>
+<small class="userInfo">Signed In as, 
+<%
+=begin
+ "#{current_user.first_name}" 
+=end
+%> </small></a>
+    
+
+<div class="accordion-content" data-tab-content id="deeplink1">
+      
+
+
+
+    </div>
+  </li>
+  <li class="accordion-item" data-accordion-item>
+    <a href="#deeplink2" class="accordion-title">Table of Contents </a>
+    <div class="accordion-content" data-tab-content id="deeplink2">
+
+
+      
+<ul class="vertical menu">
+ 
+ <li><a href="#"> Topics </a></li>
+  <li><a href="#"> Skin Care</a></li>
+  <li><a href="#"> Dietary Tips </a></li>
+  <li><a href="#"> DIY Products</a></li>
+ 
+  <li><a href="#">Two</a></li>
+  <li><a href="#">Three</a></li>
+  <li><a href="#">Four</a></li>
+  <li><a href="#">One</a></li>
+  <li><a href="#">Two</a></li>
+  <li><a href="#">Three</a></li>
+  <li><a href="#">Four</a></li>
 </ul>
 
-    <%= yield %>
+
+
+    </div>
+  </li>
+  <li class="accordion-item" data-accordion-item>
+    <a href="#deeplink3" class="accordion-title">Sign Out!</a>
+    <div class="accordion-content" data-tab-content id="deeplink3">
+    <!--
+ link_to "exit", signout_path, id: "exit", :class => "exit" 
+
+-->  
+    </div>
+  </li>
+</ul>
+
+<!-- Your menu or Off-canvas content goes here -->
+  </div>
+  <div class="off-canvas-content" data-off-canvas-content>
+
+<div class="">
+
+
+    
+
+
+</div>
+
+
+<button type="button" class="button" data-toggle="offCanvas">
+
+<i class="menu-svg"> <image src="../assets/lines_menu.svg"></i> 
+<span class="usr"> Menu <span>
+</button>
+
+
+<nav class="fixed-bottom">
+<div class="container btn-group row" role="group" aria-label="...">
+
+
+
+
+</div>
+<%
+=begin
+__________________________________________________________________________________________________
+
+=end
+%>
+    
+<script>
+
+$(document).on('turbolinks:load', function() {
+
+var slider = document.getElementById("thisYear");
+var output = document.getElementById("tracker");
+output.innerHTML = slider.value;
+
+    var timestmp = new Date().setFullYear(new Date().getFullYear(), 0, 1);
+    var yearFirstDay = Math.floor(timestmp / 86400000);
+    var today = Math.ceil((new Date().getTime()) / 86400000);
+    var dayOfYear = today - yearFirstDay;
+
+     
+slider.oninput = function() {
+  output.innerHTML =  "Day " + this.value / 86400000;
+    
+}
+
+$( '.change_range' ).each( function() {
+  $(this).click( function( e ) {
+    var el = $('#thiYear');
+
+    // set new ranges
+    el.attr('min', $(this).data('range-from'));
+    el.attr('max', $(this).data('range-to'));
+
+
+    el.val( $(this).data('range-from') ); // reset to min
+    slider.oninput(); // refresh
+
+    
+  } );
+});
+
+slider.value = 20995200000;
+//sliderInputChange();
+
+
+
+
+  $(function(){ $(document).foundation(); });
+ });
+
+
+// ===================================================================== 
+
+
+</script>
+
   </body>
 </html>
