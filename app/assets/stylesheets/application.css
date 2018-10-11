@@ -65,6 +65,10 @@
     src: url('fonts/foundation-icons.ttf');
 }
 @font-face{
+    font-family: foundation-icons;
+    src: url('fonts/foundation-icons.woff');
+}
+@font-face{
     font-family: fantasyClipart;
     src: url('fantasyClipart.ttf');
 }
@@ -254,9 +258,9 @@
   }
   .magazineOctober{
   background-image: url(afro_model1000x854.jpg);  
-  background-position: 50% -20%;
+  background-position: 100% 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   }
   .magazineNovember{
     background-image: url(novemberCover.jpg);  
@@ -278,7 +282,7 @@
   background: #fff;
   background-size: cover;
   background-position-x: 0;
-  backgroud-position-y: 0;
+  background-position-y: 0;
   background-repeat: no-repeat;
   z-index: 9;
   display: block;

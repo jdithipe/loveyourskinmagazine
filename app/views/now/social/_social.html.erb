@@ -1,14 +1,15 @@
 <div class="loginGroup">
 
 <p class="socLog"><i class="fa fa-eye"></i> <span class="signup">Sign-In</span> With Your <br/> Social Media Account</p>
-      
-            <span class="cool coverFacebook">
+  
+              <a href="/users/auth/facebook/callback">
+              <span class="cool coverFacebook">
 
                 <label class="facebook">
                 <%= image_tag("fb.svg", :class => "f", :width => "20", :height => "20") %>
                 <b class="micro"><sub class="fb">Facebook<sub></b>
                 </label>
-            </span>     
+            </span></a>     
 
 
             <span class="cool covereMail">
@@ -19,21 +20,22 @@
               </label>    
 
             </span>
-
+              <a href="/users/auth/linkedin/callback">
             <span class="cool coverLinkedin">
                 <label class="linkedin">
                 <%= image_tag("in.svg", :class => "l", :width => "20", :height => "20") %>
                 <b class="micro"><sub class="in">LinkedIn<sub></b>
                 </label>
-            </span>
+            </span></a>
 
+              <a href="/users/auth/twitter/callback">
             <span class="cool coverTwitter">
                 <label class="twitter">
                 <%= image_tag("tw.svg", :class => "t", :width => "24", :height => "24") %>
                 <b class="micro"><sub class="tw">Twitter<sub></b>     
                 </label>
 
-            </span>
+            </span></a>
         
 
 
@@ -49,13 +51,13 @@
 
 
 
-        <span class="cool coverWhatsapp">
+        <!-- span class="cool coverWhatsapp">
 
             <label class="whatsapp">
             <%= image_tag("whats.svg", :class => "w", :width => "20", :height => "20") %>
             <b class="micro"><sub class="whats">WhatsApp<sub></b>
             </label>
-        </span>
+        </span -->
 
 
 
